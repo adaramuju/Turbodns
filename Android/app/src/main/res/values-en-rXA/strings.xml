@@ -16,9 +16,7 @@
   <string name="privacy_link">[Þŕîvåçý Þöļîçý one two]</string>
   <string name="tos_link">[Ţéŕmš öƒ Šéŕvîçé one two]</string>
   <string name="source_code">[Šöûŕçé Çöðé one two]</string>
-  <string name="credits_text">[Îñţŕå ŵåš måðé бý ᐅ<a href="https://jigsaw.google.com">ᐊĴîĝšåŵᐅ</a>ᐊ. ÎÞ ļöçåţîöñš åŕé бåšéð öñ ðåţå
-    ƒŕöm ÐБ-ÎÞ.çöm. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen]</string>
-  <string name="indicator_on">[Öñ one]</string>
+    <string name="indicator_on">[Öñ one]</string>
   <string name="indicator_off">[Öƒƒ one]</string>
   <string name="status_exposed">[Éxþöšéð one]</string>
   <string name="explanation_exposed">[Ýöûŕ çöññéçţîöñ îš éxþöšéð ţö ÐÑŠ åţţåçķš. one two three four five six seven eight nine]</string>
@@ -63,9 +61,7 @@
     ðîƒƒéŕéñţ šéŕvéŕ îñ ţĥé Šéţţîñĝš méñû. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone]</string>
   <string name="default_server_label">[Çûŕŕéñţ ÐÑŠ šéŕvéŕ one two three]</string>
   <string name="insecure_server_headline">[Ýöû çåñ çĥööšé ýöûŕ öŵñ ÐÑŠ šéŕvéŕ one two three four five six seven]</string>
-  <string name="insecure_server_body">[Ŵĥéñ Îñţŕå îš ðîšåбļéð, möšţ ðévîçéš åŕé þŕé-çöñƒîĝûŕéð ţö ûšé ţĥé ÐÑŠ šéŕvéŕ ýöûŕ ñéţŵöŕķ
-    öþéŕåţöŕ þîçķš. Ţĥîš ƒîéļð šĥöŵš ţĥé ÎÞ åððŕéšš öƒ ţĥé ÐÑŠ šéŕvéŕ ţĥåţ ýöûŕ ðévîçé îš çûŕŕéñţļý
-    ûšîñĝ. Ŵîţĥ Îñţŕå öŕ Åñðŕöîð Þ, ýöû çåñ éåšîļý šéļéçţ å šéŕvéŕ öƒ ýöûŕ çĥöîçé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour]</string>
+  <string name="insecure_server_body">[Ŵĥéñ Turbo DNS îš ðîšåбļéð, möšţ ðévîçéš åŕé þŕé-çöñƒîĝûŕéð ţö ûšé ţĥé ÐÑŠ šéŕvéŕ ýöûŕ ñéţŵöŕķ öþéŕåţöŕ þîçķš. Ţĥîš ƒîéļð šĥöŵš ţĥé ÎÞ åððŕéšš öƒ ţĥé ÐÑŠ šéŕvéŕ ţĥåţ ýöûŕ ðévîçé îš çûŕŕéñţļý ûšîñĝ. Ŵîţĥ Îñţŕå öŕ Åñðŕöîð Þ, ýöû çåñ éåšîļý šéļéçţ å šéŕvéŕ öƒ ýöûŕ çĥöîçé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour]</string>
   <string name="strict_mode_server_headline">[Ýöû\'vé šéļéçţéð å šéçûŕé šéŕvéŕ one two three four five six seven]</string>
   <string name="strict_mode_server_body">[Ţĥîš ƒîéļð šĥöŵš ţĥé ñåmé öƒ ţĥé ÐÑŠ šéŕvéŕ ţĥåţ ýöû çöñƒîĝûŕéð îñ Åñðŕöîð\'š Þŕîvåţé ÐÑŠ
     šéţţîñĝ.  Ŵĥéñ Îñţŕå îš ðîšåбļéð, ýöûŕ åþþš šĥöûļð šéñð ÐÑŠ qûéŕîéš ţö ţĥîš šéŕvéŕ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive]</string>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bcpkix-jdk15on-1.56">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

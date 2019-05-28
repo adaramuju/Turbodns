@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">เข้าถึงอินเทอร์เน็ตได้อย่างอิสระมากยิ่งขึ้น</string>
-  <string name="intro_benefit_body">Intra จะช่วยป้องกันการควบคุม DNS ซึ่งเป็นการโจมตีทางไซเบอร์ที่บล็อกการเข้าถึงเว็บไซต์ข่าวสาร แพลตฟอร์มโซเชียลมีเดีย และแอปรับส่งข้อความ\n\nแม้ว่า Intra จะป้องกันไม่ให้มีการควบคุม DNS แต่ก็มีเทคนิคการบล็อกที่ซับซ้อนอีกมากมาย รวมทั้งการโจมตีอื่นๆ ที่ Intra ยังป้องกันไม่ได้</string>
+  <string name="intro_benefit_body">Turbo DNS จะช่วยป้องกันการควบคุม DNS ซึ่งเป็นการโจมตีทางไซเบอร์ที่บล็อกการเข้าถึงเว็บไซต์ข่าวสาร แพลตฟอร์มโซเชียลมีเดีย และแอปรับส่งข้อความ\n\nแม้ว่า Turbo DNS จะป้องกันไม่ให้มีการควบคุม DNS แต่ก็มีเทคนิคการบล็อกที่ซับซ้อนอีกมากมาย รวมทั้งการโจมตีอื่นๆ ที่ Turbo DNS ยังป้องกันไม่ได้</string>
   <string name="intro_manipulation_headline">ป้องกันการควบคุม DNS</string>
-  <string name="intro_manipulation_body">Intra จะช่วยปกป้องการเชื่อมต่อไปยังระบบชื่อโดเมน (DNS) ซึ่งจะมอบข้อมูลที่อยู่ที่ถูกต้องให้คุณในการเข้าชมเว็บไซต์หรือเปิดใช้แอป\n\nIntra ใช้การเข้ารหัสลับเพื่อป้องกันไม่ให้มีการควบคุม DNS จึงช่วยให้คุณเข้าถึงอินเทอร์เน็ตได้อย่างปลอดภัย</string>
+  <string name="intro_manipulation_body">Turbo DNS จะช่วยปกป้องการเชื่อมต่อไปยังระบบชื่อโดเมน (DNS) ซึ่งจะมอบข้อมูลที่อยู่ที่ถูกต้องให้คุณในการเข้าชมเว็บไซต์หรือเปิดใช้แอป\n\nTurbo DNS ใช้การเข้ารหัสลับเพื่อป้องกันไม่ให้มีการควบคุม DNS จึงช่วยให้คุณเข้าถึงอินเทอร์เน็ตได้อย่างปลอดภัย</string>
   <string name="intro_details_headline">สิ่งสุดท้าย…</string>
-  <string name="intro_details_body">แตะ \"ตกลง\" เพื่ออนุญาตให้ Intra ปกป้องคำขอ DNS ของคุณ โดยค่าเริ่มต้น คำขอจะส่งไปยัง DNS สาธารณะของ Google (<a href="https://developers.google.com/speed/public-dns/privacy">นโยบายความเป็นส่วนตัว</a>) นอกจากนี้คุณยังเลือกใช้บริการอื่นในการตั้งค่าแอปได้</string>
+  <string name="intro_details_body">แตะ \"ตกลง\" เพื่ออนุญาตให้ Turbo DNS ปกป้องคำขอ DNS ของคุณ โดยค่าเริ่มต้น คำขอจะส่งไปยัง DNS สาธารณะของ Google (<a href="https://developers.google.com/speed/public-dns/privacy">นโยบายความเป็นส่วนตัว</a>) นอกจากนี้คุณยังเลือกใช้บริการอื่นในการตั้งค่าแอปได้</string>
   <string name="intro_back">ย้อนกลับ</string>
   <string name="intro_next">ถัดไป</string>
   <string name="intro_accept">ยอมรับ</string>
@@ -16,8 +16,7 @@
   <string name="privacy_link">นโยบายความเป็นส่วนตัว</string>
   <string name="tos_link">ข้อกำหนดในการให้บริการ</string>
   <string name="source_code">ซอร์สโค้ด</string>
-  <string name="credits_text">Intra ดำเนินการโดย <a href="https://jigsaw.google.com">Jigsaw</a> ตำแหน่ง IP จะขึ้นอยู่กับข้อมูลจาก DB-IP.com.</string>
-  <string name="indicator_on">เปิด</string>
+    <string name="indicator_on">เปิด</string>
   <string name="indicator_off">ปิด</string>
   <string name="status_exposed">มีความเสี่ยง</string>
   <string name="explanation_exposed">การเชื่อมต่อของคุณเสี่ยงต่อการโจมตี DNS</string>
@@ -27,27 +26,27 @@
   <string name="explanation_upgraded">ขณะนี้การเชื่อมต่อของคุณได้รับการป้องกันโดย DNS ส่วนตัวของ Andriod แต่ผู้โจมตีอาจปิดใช้
     หรือเจาะระบบรักษาความปลอดภัยได้</string>
   <string name="status_strict">รักษาความปลอดภัยโดย Android</string>
-  <string name="explanation_strict">Intra ตรวจพบว่ามีการเปิดใช้งานการตั้งค่า DNS ส่วนตัวของ Android ซึ่งหมายความว่าคำขอ DNS 
-    ได้รับการรักษาความปลอดภัยแล้ว ดังนั้นจึงไม่จำเป็นต้องเปิดใช้ Intra อีก</string>
+  <string name="explanation_strict">Turbo DNS ตรวจพบว่ามีการเปิดใช้งานการตั้งค่า DNS ส่วนตัวของ Android ซึ่งหมายความว่าคำขอ DNS
+    ได้รับการรักษาความปลอดภัยแล้ว ดังนั้นจึงไม่จำเป็นต้องเปิดใช้ Turbo DNS อีก</string>
   <string name="status_starting">กำลังเริ่มต้น...</string>
-  <string name="explanation_starting">รอสักครู่ Intra กำลังสร้างการเชื่อมต่อกับเซิร์ฟเวอร์</string>
+  <string name="explanation_starting">รอสักครู่ Turbo DNS กำลังสร้างการเชื่อมต่อกับเซิร์ฟเวอร์</string>
   <string name="status_waiting">โปรดรอ…</string>
   <string name="status_failing">ไม่สำเร็จ</string>
-  <string name="explanation_offline">อุปกรณ์ของคุณออฟไลน์อยู่ Intra กำลังรอการเชื่อมต่อเครือข่าย</string>
-  <string name="explanation_vpn">Intra ตรวจพบว่ามี VPN อื่นอยู่ในอุปกรณ์ หากคุณเปิดใช้ Intra ระบบจะปิด VPN นี้
-    Intra ไม่ได้มีความปลอดภัยเท่ากับ VPN ที่เชื่อถือได้</string>
-  <string name="explanation_failing">คำเตือน: คำขอไม่สำเร็จ คุณอาจต้องเลือกเซิร์ฟเวอร์อื่นหรือรีสตาร์ท Intra</string>
+  <string name="explanation_offline">อุปกรณ์ของคุณออฟไลน์อยู่ Turbo DNS กำลังรอการเชื่อมต่อเครือข่าย</string>
+  <string name="explanation_vpn">Turbo DNS ตรวจพบว่ามี VPN อื่นอยู่ในอุปกรณ์ หากคุณเปิดใช้ Turbo DNS ระบบจะปิด VPN นี้
+    Turbo DNS ไม่ได้มีความปลอดภัยเท่ากับ VPN ที่เชื่อถือได้</string>
+  <string name="explanation_failing">คำเตือน: คำขอไม่สำเร็จ คุณอาจต้องเลือกเซิร์ฟเวอร์อื่นหรือรีสตาร์ท Turbo DNS</string>
   <string name="button_failing">ลองใช้เซิร์ฟเวอร์อื่น</string>
   <string name="system_details">รายละเอียดของระบบ</string>
   <string name="num_requests">การค้นหาทั้งหมด</string>
   <string name="num_requests_headline">คำขอ DNS จะเกิดขึ้นเมื่ออุปกรณ์ค้นหาที่อยู่ IP ของชื่อโดเมน</string>
-  <string name="num_requests_body">ค่านี้จะแสดงจำนวนคำขอ DNS ทั้งหมดของอุปกรณ์ในขณะที่กำลังใช้งาน Intra โดย Intra จะเข้ารหัสลับคำขอทั้งหมดนี้แล้วส่งไปยังเซิร์ฟเวอร์ที่เชื่อถือได้เพื่อให้คุณได้รับผลลัพธ์ที่ถูกต้อง</string>
+  <string name="num_requests_body">ค่านี้จะแสดงจำนวนคำขอ DNS ทั้งหมดของอุปกรณ์ในขณะที่กำลังใช้งาน Turbo DNS โดย Turbo DNS จะเข้ารหัสลับคำขอทั้งหมดนี้แล้วส่งไปยังเซิร์ฟเวอร์ที่เชื่อถือได้เพื่อให้คุณได้รับผลลัพธ์ที่ถูกต้อง</string>
   <string name="queries_per_minute">การค้นหาล่าสุด</string>
   <string name="queries_per_minute_headline">คำขอ DNS จะเกิดขึ้นในช่วงเริ่มต้นการเชื่อมต่อแต่ละครั้ง</string>
   <string name="queries_per_minute_body">ค่านี้จะแสดงจำนวนคำขอ DNS ของอุปกรณ์ในช่วงนาทีล่าสุด การโหลดหน้าเว็บที่มีความซับซ้อนอาจกำหนดให้ต้องมีคำขอ DNS จำนวนนับร้อย</string>
   <string name="transport_label">การส่งข้อมูลที่เข้ารหัส</string>
   <string name="transport_headline">การเข้ารหัสลับจะช่วยป้องกันไม่ให้ผู้อื่นเห็นคำขอของคุณ</string>
-  <string name="transport_body">เมื่อใช้ Intra แอปจะเข้ารหัสลับคำขอ DNS จึงมีเพียงคุณและเซิร์ฟเวอร์ DNS เท่านั้นที่จะเห็นคำขอ DNS ของคุณ โดย Intra จะใช้ DNS ผ่านโปรโตคอล HTTPS ในการเข้ารหัสลับ</string>
+  <string name="transport_body">เมื่อใช้ Turbo DNS แอปจะเข้ารหัสลับคำขอ DNS จึงมีเพียงคุณและเซิร์ฟเวอร์ DNS เท่านั้นที่จะเห็นคำขอ DNS ของคุณ โดย Turbo DNS จะใช้ DNS ผ่านโปรโตคอล HTTPS ในการเข้ารหัสลับ</string>
   <string name="default_transport_label">การรับส่งข้อมูลโดยค่าเริ่มต้น</string>
   <string name="insecure_transport">ไม่ได้เข้ารหัส</string>
   <string name="insecure_transport_headline">DNS พื้นฐานไม่ได้รับการเข้ารหัส</string>
@@ -57,9 +56,9 @@
   <string name="server_body">ช่องนี้จะแสดงชื่อเซิร์ฟเวอร์ DNS ที่ปลอดภัยซึ่งคุณกำลังใช้งานอยู่ โดยคุณเลือกเปลี่ยนเป็นเซิร์ฟเวอร์อื่นได้ในเมนูการตั้งค่า</string>
   <string name="default_server_label">เซิร์ฟเวอร์ DNS ปัจจุบัน</string>
   <string name="insecure_server_headline">คุณจะเลือกเซิร์ฟเวอร์ DNS ของตนเองได้</string>
-  <string name="insecure_server_body">เมื่อปิดใช้ Intra อุปกรณ์ส่วนใหญ่จะได้รับการกำหนดค่าล่วงหน้าให้ใช้เซิร์ฟเวอร์ DNS ที่ผู้ให้บริการเครือข่ายของคุณเลือก ช่องนี้จะแสดงที่อยู่ IP ของเซิร์ฟเวอร์ DNS ที่อุปกรณ์ของคุณกำลังใช้งานอยู่ Intra หรือ Android P จะช่วยให้คุณเลือกเซิร์ฟเวอร์ที่ต้องการได้อย่างง่ายดาย</string>
+  <string name="insecure_server_body">เมื่อปิดใช้ Turbo DNS อุปกรณ์ส่วนใหญ่จะได้รับการกำหนดค่าล่วงหน้าให้ใช้เซิร์ฟเวอร์ DNS ที่ผู้ให้บริการเครือข่ายของคุณเลือก ช่องนี้จะแสดงที่อยู่ IP ของเซิร์ฟเวอร์ DNS ที่อุปกรณ์ของคุณกำลังใช้งานอยู่ Turbo DNS หรือ Android P จะช่วยให้คุณเลือกเซิร์ฟเวอร์ที่ต้องการได้อย่างง่ายดาย</string>
   <string name="strict_mode_server_headline">คุณได้เลือกเซิร์ฟเวอร์ที่มีความปลอดภัยแล้ว</string>
-  <string name="strict_mode_server_body">ช่องนี้จะแสดงชื่อเซิร์ฟเวอร์ DNS ที่คุณได้กำหนดค่าไว้ในการตั้งค่า DNS แบบส่วนตัวของ Android  เมื่อปิดใช้ Intra แอปของคุณจะส่งคำขอ DNS ไปยังเซิร์ฟเวอร์นี้</string>
+  <string name="strict_mode_server_body">ช่องนี้จะแสดงชื่อเซิร์ฟเวอร์ DNS ที่คุณได้กำหนดค่าไว้ในการตั้งค่า DNS แบบส่วนตัวของ Android  เมื่อปิดใช้ Turbo DNS แอปของคุณจะส่งคำขอ DNS ไปยังเซิร์ฟเวอร์นี้</string>
   <string name="unknown_server">(เซิร์ฟเวอร์ที่ไม่รู้จัก)</string>
   <string name="show_history">แสดงการค้นหาล่าสุด</string>
   <string name="query_label">การค้นหา</string>
@@ -74,15 +73,15 @@
   <string name="server_choice_custom">URL ของเซิร์ฟเวอร์ที่กำหนดเอง</string>
   <string name="server_choice_warning">URL ของเซิร์ฟเวอร์ที่กำหนดเองจะต้องอยู่ในรูปแบบ https:// ที่ถูกต้อง</string>
   <string name="excluded_apps">แอปที่ยกเว้น</string>
-  <string name="excluded_apps_summary">คำขอ DNS จากแอปที่เลือกไว้จะไม่ส่งผ่าน Intra หากพบว่าแอปใด
-    ใช้งานร่วมกับ Intra ไม่ได้ โปรดเพิ่มแอปดังกล่าวที่นี่</string>
-  <string name="excluded_apps_title">เลือกแอปที่ไม่ต้องการใช้กับ Intra</string>
+  <string name="excluded_apps_summary">คำขอ DNS จากแอปที่เลือกไว้จะไม่ส่งผ่าน Turbo DNS หากพบว่าแอปใด
+    ใช้งานร่วมกับ Turbo DNS ไม่ได้ โปรดเพิ่มแอปดังกล่าวที่นี่</string>
+  <string name="excluded_apps_title">เลือกแอปที่ไม่ต้องการใช้กับ Turbo DNS</string>
   <string name="old_android">Android เวอร์ชันที่คุณใช้งานอยู่ไม่มีฟังก์ชันนี้</string>
   <string name="notification_title">การป้องกัน DNS ทำงานอยู่</string>
   <string name="notification_content">แตะเพื่อเปลี่ยนการตั้งค่าการป้องกัน DNS</string>
   <string name="channel_name">การแจ้งเตือนการใช้งานการป้องกัน DNS</string>
   <string name="channel_description">การแจ้งเตือนนี้จะปรากฎขึ้นในขณะที่การป้องกัน DNS ทำงานอยู่</string>
-  <string name="warning_title">คำเตือน: Intra ถูกปิดการใช้งานแล้ว</string>
+  <string name="warning_title">คำเตือน: Turbo DNS ถูกปิดการใช้งานแล้ว</string>
   <string name="warning_channel_name">คำเตือน</string>
-  <string name="warning_channel_description">คำเตือนจะแสดงขึ้นเมื่อ Intra ประสบปัญหา</string>
+  <string name="warning_channel_description">คำเตือนจะแสดงขึ้นเมื่อ Turbo DNS ประสบปัญหา</string>
 </resources>

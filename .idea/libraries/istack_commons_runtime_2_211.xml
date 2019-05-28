@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="istack-commons-runtime-2.211">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/com/sun/istack/istack-commons-runtime/2.21/istack-commons-runtime-2.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

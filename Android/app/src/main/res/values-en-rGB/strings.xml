@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">More open Internet access</string>
-  <string name="intro_benefit_body">Intra protects you from DNS manipulation, a cyber attack used to block access to news sites, social media platforms and messaging apps.\n\nWhile Intra protects you against DNS manipulation, there are other more complicated blocking techniques and attacks that Intra doesn\'t protect against.</string>
+  <string name="intro_benefit_body">Turbo DNS protects you from DNS manipulation, a cyber attack used to block access to news sites, social media platforms and messaging apps.\n\nWhile Turbo DNS protects you against DNS manipulation, there are other more complicated blocking techniques and attacks that Turbo DNS doesn\'t protect against.</string>
   <string name="intro_manipulation_headline">Protection from DNS manipulation</string>
-  <string name="intro_manipulation_body">Intra protects your connection to the Domain Name System (DNS), which provides the exact addresses that you need to visit a website or open an app.\n\nIntra uses encryption to ensure that results can\’t be manipulated, helping you safely access the Internet.</string>
+  <string name="intro_manipulation_body">Turbo DNS protects your connection to the Domain Name System (DNS), which provides the exact addresses that you need to visit a website or open an app.\n\nTurbo DNS uses encryption to ensure that results can\’t be manipulated, helping you safely access the Internet.</string>
   <string name="intro_details_headline">One last thing…</string>
-  <string name="intro_details_body">Tap OK to allow Intra to protect your DNS requests. By default, they will be routed to Google Public DNS (<a href="https://developers.google.com/speed/public-dns/privacy">Privacy Policy</a>). You can choose another service in the app settings.</string>
+  <string name="intro_details_body">Tap OK to allow Turbo DNS to protect your DNS requests. By default, they will be routed to Google Public DNS (<a href="https://developers.google.com/speed/public-dns/privacy">Privacy Policy</a>). You can choose another service in the app settings.</string>
   <string name="intro_back">back</string>
   <string name="intro_next">next</string>
   <string name="intro_accept">accept</string>
@@ -16,8 +16,6 @@
   <string name="privacy_link">Privacy Policy</string>
   <string name="tos_link">Terms of Service</string>
   <string name="source_code">Source Code</string>
-  <string name="credits_text">Intra was made by <a href="https://jigsaw.google.com">Jigsaw</a>. IP locations are based on data
-    from DB-IP.com.</string>
   <string name="indicator_on">On</string>
   <string name="indicator_off">Off</string>
   <string name="status_exposed">Exposed</string>
@@ -28,22 +26,22 @@
   <string name="explanation_upgraded">Your connection is currently protected by Android Private DNS, but an attacker could disable
     or undermine this protection.</string>
   <string name="status_strict">Protected by Android</string>
-  <string name="explanation_strict">Intra has detected that the Android Private DNS setting is enabled. This means that your DNS
-    queries are already protected, so there\'s no need to enable Intra.</string>
+  <string name="explanation_strict">Turbo DNS has detected that the Android Private DNS setting is enabled. This means that your DNS
+    queries are already protected, so there\'s no need to enable Turbo DNS.</string>
   <string name="status_starting">Starting…</string>
-  <string name="explanation_starting">Just a moment. Intra is establishing a server connection.</string>
+  <string name="explanation_starting">Just a moment. Turbo DNS is establishing a server connection.</string>
   <string name="status_waiting">Waiting…</string>
   <string name="status_failing">Failing</string>
-  <string name="explanation_offline">Your device is offline. Intra is waiting for a network connection.</string>
-  <string name="explanation_vpn">Intra has detected another VPN on your device.  If you enable Intra, that VPN will be disabled.
-    Intra is not as secure as a trusted VPN.</string>
-  <string name="explanation_failing">Warning: Queries are failing. You may want to choose a different server or restart Intra.</string>
+  <string name="explanation_offline">Your device is offline. Turbo DNS is waiting for a network connection.</string>
+  <string name="explanation_vpn">Turbo DNS has detected another VPN on your device.  If you enable Turbo DNS, that VPN will be disabled.
+    Turbo DNS is not as secure as a trusted VPN.</string>
+  <string name="explanation_failing">Warning: Queries are failing. You may want to choose a different server or restart Turbo DNS.</string>
   <string name="button_failing">Try a different server</string>
   <string name="system_details">System details</string>
   <string name="num_requests">Lifetime queries</string>
   <string name="num_requests_headline">DNS queries happen when your device looks up the IP address for a domain name</string>
-  <string name="num_requests_body">This value shows the total number of DNS queries that your device has performed while Intra was
-    active. Intra encrypts these queries and sends them to a trusted server to make sure that you\'re
+  <string name="num_requests_body">This value shows the total number of DNS queries that your device has performed while Turbo DNS was
+    active. Turbo DNS encrypts these queries and sends them to a trusted server to make sure that you\'re
     receiving authentic results.</string>
   <string name="queries_per_minute">Recent queries</string>
   <string name="queries_per_minute_headline">DNS queries happen at the beginning of each connection</string>
@@ -51,8 +49,8 @@
     Loading a complex web page can require over a hundred DNS queries.</string>
   <string name="transport_label">Encrypted transport</string>
   <string name="transport_headline">Encryption protects your queries from prying eyes</string>
-  <string name="transport_body">When you use Intra, your DNS queries are encrypted, so that only you and your DNS server can see
-    what DNS queries you are making. Intra implements the DNS over HTTPS protocol for encryption.</string>
+  <string name="transport_body">When you use Turbo DNS, your DNS queries are encrypted, so that only you and your DNS server can see
+    what DNS queries you are making. Turbo DNS implements the DNS over HTTPS protocol for encryption.</string>
   <string name="default_transport_label">Default transport</string>
   <string name="insecure_transport">unencrypted</string>
   <string name="insecure_transport_headline">Basic DNS is unencrypted</string>
@@ -65,12 +63,10 @@
     different server in the Settings menu.</string>
   <string name="default_server_label">Current DNS server</string>
   <string name="insecure_server_headline">You can choose your own DNS server</string>
-  <string name="insecure_server_body">When Intra is disabled, most devices are pre-configured to use the DNS server that your network
-    operator picks. This field shows the IP address of the DNS server that your device is currently
-    using. With Intra or Android P, you can easily select a server of your choice.</string>
+  <string name="insecure_server_body">When Turbo DNS is disabled, most devices are pre-configured to use the DNS server that your network operator picks. This field shows the IP address of the DNS server that your device is currently using. With Turbo DNS or Android P, you can easily select a server of your choice.</string>
   <string name="strict_mode_server_headline">You\'ve selected a secure server</string>
   <string name="strict_mode_server_body">This field shows the name of the DNS server that you configured in Android\'s Private DNS
-    setting.  When Intra is disabled, your apps should send DNS queries to this server.</string>
+    setting.  When Turbo DNS is disabled, your apps should send DNS queries to this server.</string>
   <string name="unknown_server">(unknown server)</string>
   <string name="show_history">Show recent queries</string>
   <string name="query_label">Query</string>
@@ -85,15 +81,15 @@
   <string name="server_choice_custom">Custom server URL</string>
   <string name="server_choice_warning">Custom server must be a valid https:// URL</string>
   <string name="excluded_apps">Excluded apps</string>
-  <string name="excluded_apps_summary">DNS queries from any selected apps will not go through Intra. If an app appears to be
-    incompatible with Intra, you can add it here.</string>
-  <string name="excluded_apps_title">Mark apps to exclude from Intra</string>
+  <string name="excluded_apps_summary">DNS queries from any selected apps will not go through Turbo DNS. If an app appears to be
+    incompatible with Turbo DNS, you can add it here.</string>
+  <string name="excluded_apps_title">Mark apps to exclude from Turbo DNS</string>
   <string name="old_android">This functionality is not available on your version of Android.</string>
   <string name="notification_title">DNS protection is active</string>
   <string name="notification_content">Tap to change DNS protection setting</string>
   <string name="channel_name">DNS Protection Active Notification</string>
   <string name="channel_description">This notification appears while DNS protection is active.</string>
-  <string name="warning_title">Warning: Intra has been deactivated</string>
+  <string name="warning_title">Warning: Turbo DNS has been deactivated</string>
   <string name="warning_channel_name">Warning</string>
-  <string name="warning_channel_description">Shown when Intra has encountered a problem.</string>
+  <string name="warning_channel_description">Shown when Turbo DNS has encountered a problem.</string>
 </resources>

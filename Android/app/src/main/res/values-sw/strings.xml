@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Uwazi zaidi katika ufikiaji wa intaneti</string>
-  <string name="intro_benefit_body">Intra hukulinda dhidi ya ughushi wa DNS, uvamizi wa kimtandao unaotumiwa kuzuia ufikiaji wa tovuti za habari, mitandao ya kijamii na programu za kutuma na kupokea ujumbe.\n\nIjapokuwa Intra hukulinda dhidi ya ughushi wa DNS, kuna mbinu zingine changamano za uzuiaji na uvamizi ambazo Intra haiwezi kukulinda dhidi yake.</string>
+  <string name="intro_benefit_body">Turbo DNS hukulinda dhidi ya ughushi wa DNS, uvamizi wa kimtandao unaotumiwa kuzuia ufikiaji wa tovuti za habari, mitandao ya kijamii na programu za kutuma na kupokea ujumbe.\n\nIjapokuwa Turbo DNS hukulinda dhidi ya ughushi wa DNS, kuna mbinu zingine changamano za uzuiaji na uvamizi ambazo Turbo DNS haiwezi kukulinda dhidi yake.</string>
   <string name="intro_manipulation_headline">Ulinzi dhidi ya ughushi wa DNS</string>
-  <string name="intro_manipulation_body">Intra hulinda muunganisho wako kwenye Mfumo wa Majina ya Vikoa (DNS), unaokupa anwani mahususi unazohitaji ili utembelee tovuti au programu.\n\nIntra hutumia usimbaji fiche kuhakikisha kuwa matokeo hayawezi kubadilishwa, hivyo kukuwezesha kufikia intaneti kwa njia salama.</string>
+  <string name="intro_manipulation_body">Turbo DNS hulinda muunganisho wako kwenye Mfumo wa Majina ya Vikoa (DNS), unaokupa anwani mahususi unazohitaji ili utembelee tovuti au programu.\n\nTurbo DNS hutumia usimbaji fiche kuhakikisha kuwa matokeo hayawezi kubadilishwa, hivyo kukuwezesha kufikia intaneti kwa njia salama.</string>
   <string name="intro_details_headline">Jambo moja la mwisho…</string>
-  <string name="intro_details_body">Gusa Sawa ili uruhusu Intra ilinde maombi yako ya DNS. Kwa chaguomsingi, maombi yako yataelekezwa kwenye DNS ya Umma ya Google (<a href="https://developers.google.com/speed/public-dns/privacy">Sera ya Faragha</a>). Unaweza kuchagua kutumia huduma nyingine katika mipangilio ya programu.</string>
+  <string name="intro_details_body">Gusa Sawa ili uruhusu Turbo DNS ilinde maombi yako ya DNS. Kwa chaguomsingi, maombi yako yataelekezwa kwenye DNS ya Umma ya Google (<a href="https://developers.google.com/speed/public-dns/privacy">Sera ya Faragha</a>). Unaweza kuchagua kutumia huduma nyingine katika mipangilio ya programu.</string>
   <string name="intro_back">rudi nyuma</string>
   <string name="intro_next">endelea</string>
   <string name="intro_accept">kubali</string>
@@ -16,9 +16,7 @@
   <string name="privacy_link">Sera ya Faragha</string>
   <string name="tos_link">Sheria na Masharti</string>
   <string name="source_code">Msimbo wa Asili</string>
-  <string name="credits_text">Intra imetengenezwa na <a href="https://jigsaw.google.com">Jigsaw</a>. Maelezo ya maeneo ya IP yanatokana na data
-    kutoka DB-IP.com.</string>
-  <string name="indicator_on">Imewashwa</string>
+    <string name="indicator_on">Imewashwa</string>
   <string name="indicator_off">Imezimwa</string>
   <string name="status_exposed">Uko hatarini</string>
   <string name="explanation_exposed">Muunganisho wako uko katika hatari ya mashambulizi ya DNS.</string>
@@ -28,22 +26,22 @@
   <string name="explanation_upgraded">Kwa sasa muunganisho wako unalindwa na DNS ya Kibinafsi kwenye Android, lakini mshambulizi anaweza kuzima
     au kudhoofisha ulinzi huu.</string>
   <string name="status_strict">Unalindwa na Android</string>
-  <string name="explanation_strict">Intra imetambua kuwa mipangilio ya DNS ya Kibinafsi kwenye Android imewashwa.  Hii inamaanisha hoja zako za DNS
-    tayari zimelindwa na hakuna haja ya kuwasha Intra.</string>
+  <string name="explanation_strict">Turbo DNS imetambua kuwa mipangilio ya DNS ya Kibinafsi kwenye Android imewashwa.  Hii inamaanisha hoja zako za DNS
+    tayari zimelindwa na hakuna haja ya kuwasha Turbo DNS.</string>
   <string name="status_starting">Inaanza…</string>
-  <string name="explanation_starting">Subiri kidogo. Intra inaunganisha kwenye seva.</string>
+  <string name="explanation_starting">Subiri kidogo. Turbo DNS inaunganisha kwenye seva.</string>
   <string name="status_waiting">Inasubiri…</string>
   <string name="status_failing">Kuna tatizo</string>
-  <string name="explanation_offline">Kifaa chako kiko nje ya mtandao. Intra inasubiri muunganisho wa mtandao.</string>
-  <string name="explanation_vpn">Intra imetambua VPN nyingine kwenye kifaa chako. Ukiwasha Intra, VPN hiyo itazimwa.
-    Intra si salama kama VPN inayoaminika.</string>
-  <string name="explanation_failing">Onyo: Kuna matatizo ya kuchakata hoja. Unaweza kuchagua seva tofauti au uzime Intra kisha uiwashe tena.</string>
+  <string name="explanation_offline">Kifaa chako kiko nje ya mtandao. Turbo DNS inasubiri muunganisho wa mtandao.</string>
+  <string name="explanation_vpn">Turbo DNS imetambua VPN nyingine kwenye kifaa chako. Ukiwasha Turbo DNS, VPN hiyo itazimwa.
+    Turbo DNS si salama kama VPN inayoaminika.</string>
+  <string name="explanation_failing">Onyo: Kuna matatizo ya kuchakata hoja. Unaweza kuchagua seva tofauti au uzime Turbo DNS kisha uiwashe tena.</string>
   <string name="button_failing">Jaribu seva tofauti</string>
   <string name="system_details">Maelezo ya mfumo</string>
   <string name="num_requests">Maombi yote</string>
   <string name="num_requests_headline">Hoja za DNS hutokea kifaa chako kinapotafuta anwani ya IP ya jina la kikoa</string>
-  <string name="num_requests_body">Thamani hii inaonyesha idadi kamili ya hoja za DNS ambazo kifaa chako kimetekeleza wakati intra
-    ilikuwa inatumika. Intra husimba hoja hizi kwa njia fiche na kuzituma kwenye seva ya kuaminika ili kuhakikisha kuwa
+  <string name="num_requests_body">Thamani hii inaonyesha idadi kamili ya hoja za DNS ambazo kifaa chako kimetekeleza wakati Turbo DNS
+    ilikuwa inatumika. Turbo DNS husimba hoja hizi kwa njia fiche na kuzituma kwenye seva ya kuaminika ili kuhakikisha kuwa
     unapata matokeo halisi.</string>
   <string name="queries_per_minute">Maombi ya hivi punde</string>
   <string name="queries_per_minute_headline">Hoja za DNS hutokea mwanzoni mwa kila muunganisho</string>
@@ -51,8 +49,8 @@
     Unaweza kuhitaji zaidi ya hoja mia moja za DNS kupakia ukurasa changamano wa wavuti.</string>
   <string name="transport_label">Uhamishaji data uliosimbwa kwa njia fiche</string>
   <string name="transport_headline">Usimbaji fiche hulinda hoja zako dhidi ya macho ya nje</string>
-  <string name="transport_body">Unapotumia Intra, hoja zako za DNS husimbwa kwa njia fiche, hivi kwamba ni wewe na seva yako ya DNS pekee mnaoweza kuona
-    hoja za DNS unazotuma. Intra hutekeleza DNS kupitia kwa itifaki ya HTTPS ili isimbwe kwa njia fiche.</string>
+  <string name="transport_body">Unapotumia Turbo DNS, hoja zako za DNS husimbwa kwa njia fiche, hivi kwamba ni wewe na seva yako ya DNS pekee mnaoweza kuona
+    hoja za DNS unazotuma. Turbo DNS hutekeleza DNS kupitia kwa itifaki ya HTTPS ili isimbwe kwa njia fiche.</string>
   <string name="default_transport_label">Usafirishaji chaguomsingi</string>
   <string name="insecure_transport">haijasimbwa kwa njia fiche</string>
   <string name="insecure_transport_headline">DNS ya msingi haijasimbwa kwa njia fiche</string>
@@ -65,9 +63,9 @@
     seva tofauti katika menyu ya Mipangilio.</string>
   <string name="default_server_label">Seva ya sasa ya DNS</string>
   <string name="insecure_server_headline">Unaweza kuchagua seva yako ya DNS</string>
-  <string name="insecure_server_body">Intra ikizimwa, vifaa vingi huwekewa mipangilio awali ili vitumie seva  ay DNS itakayochaguliwa na mtoa huduma wako wa mtandao. Sehemu hii huonyesha anwani ya IP ya seva ya DNS ambayo kifaa chako kinatumia kwa sasa. Ukiwa na Intra au Android P, unaweza kuchagua seva unayoipenda kwa urahisi.</string>
+  <string name="insecure_server_body">Turbo DNS ikizimwa, vifaa vingi huwekewa mipangilio awali ili vitumie seva ay DNS itakayochaguliwa na mtoa huduma wako wa mtandao. Sehemu hii huonyesha anwani ya IP ya seva ya DNS ambayo kifaa chako kinatumia kwa sasa. Ukiwa na Turbo DNS au Android P, unaweza kuchagua seva unayoipenda kwa urahisi.</string>
   <string name="strict_mode_server_headline">Umechagua seva salama</string>
-  <string name="strict_mode_server_body">Sehemu hii inaonyesha jina la seva ya DNS uliyowekea mipangilio katika mipangilio ya Android ya DNS ya Faragha.  Intra ikizimwa, programu zako zinapaswa kutuma hoja za DNS kwa seva hii.</string>
+  <string name="strict_mode_server_body">Sehemu hii inaonyesha jina la seva ya DNS uliyowekea mipangilio katika mipangilio ya Android ya DNS ya Faragha.  Turbo DNS ikizimwa, programu zako zinapaswa kutuma hoja za DNS kwa seva hii.</string>
   <string name="unknown_server">(seva isiyojulikana)</string>
   <string name="show_history">Onyesha maombi ya hivi majuzi</string>
   <string name="query_label">Ombi</string>
@@ -82,15 +80,15 @@
   <string name="server_choice_custom">URL ya seva maalum</string>
   <string name="server_choice_warning">Seva maalum ni lazima iwe URL sahihi ya https://</string>
   <string name="excluded_apps">Programu zilizotengwa</string>
-  <string name="excluded_apps_summary">Hoja za DNS kutoka kwenye programu zozote zilizochaguliwa hazitapitia kwenye Intra.  Ikiwa programu inaonekana
-    kutooana na Intra, unaweza kuiongeza hapa.</string>
-  <string name="excluded_apps_title">Tia alama kwenye programu utakazotenga na Intra</string>
+  <string name="excluded_apps_summary">Hoja za DNS kutoka kwenye programu zozote zilizochaguliwa hazitapitia kwenye Turbo DNS.  Ikiwa programu inaonekana
+    kutooana na Turbo DNS, unaweza kuiongeza hapa.</string>
+  <string name="excluded_apps_title">Tia alama kwenye programu utakazotenga na Turbo DNS</string>
   <string name="old_android">Utendaji huu haupatikani kwenye toleo lako la Android.</string>
   <string name="notification_title">Kipengle cha kulinda DNS kimewashwa</string>
   <string name="notification_content">Gusa ili ubadilishe mipangilio ya ulinzi wa DNS</string>
   <string name="channel_name">Arifa ya Kuonyesha Kipengele cha Kulinda DNS Kimewashwa</string>
   <string name="channel_description">Arifa hii huonyeshwa wakati kipengle cha kulinda DNS kimewashwa.</string>
-  <string name="warning_title">Ilani: Intra imezimwa</string>
+  <string name="warning_title">Ilani: Turbo DNS imezimwa</string>
   <string name="warning_channel_name">Ilani</string>
-  <string name="warning_channel_description">Huonyeshwa Intra inapokumbwa na tatizo.</string>
+  <string name="warning_channel_description">Huonyeshwa Turbo DNS inapokumbwa na tatizo.</string>
 </resources>

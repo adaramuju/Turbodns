@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jopt-simple-4.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

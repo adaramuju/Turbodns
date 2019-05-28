@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="protobuf-java-util-3.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/com/google/protobuf/protobuf-java-util/3.4.0/protobuf-java-util-3.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

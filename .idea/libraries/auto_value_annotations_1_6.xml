@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="auto-value-annotations-1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/firebase-repo/com/google/auto/value/auto-value-annotations/1.6/auto-value-annotations-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

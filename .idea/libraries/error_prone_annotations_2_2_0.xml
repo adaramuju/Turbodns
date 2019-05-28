@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="error_prone_annotations-2.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="objenesis-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/org/objenesis/objenesis/2.6/objenesis-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

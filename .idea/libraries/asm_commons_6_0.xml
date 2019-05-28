@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="asm-commons-6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Bardziej otwarty dostęp do internetu</string>
-  <string name="intro_benefit_body">Intra chroni Cię przed manipulacją DNS – atakiem sieciowym używanym do blokowania dostępu do serwisów z wiadomościami, mediów społecznościowych i komunikatorów.\n\nIstnieją jednak inne, bardziej skomplikowane techniki blokowania i ataki, przed którymi Intra nie chroni.</string>
+  <string name="intro_benefit_body">Turbo DNS chroni Cię przed manipulacją DNS – atakiem sieciowym używanym do blokowania dostępu do serwisów z wiadomościami, mediów społecznościowych i komunikatorów.\n\nIstnieją jednak inne, bardziej skomplikowane techniki blokowania i ataki, przed którymi Turbo DNS nie chroni.</string>
   <string name="intro_manipulation_headline">Ochrona przed manipulacją DNS</string>
-  <string name="intro_manipulation_body">Intra chroni Twoje połączenie z systemem nazw domenowych (DNS), z którego otrzymujesz dokładne adresy potrzebne do otwierania stron internetowych i aplikacji.\n\nIntra stosuje szyfrowanie, by zapobiec manipulowaniu wynikami, pomagając Ci bezpiecznie korzystać z internetu.</string>
+  <string name="intro_manipulation_body">Turbo DNS chroni Twoje połączenie z systemem nazw domenowych (DNS), z którego otrzymujesz dokładne adresy potrzebne do otwierania stron internetowych i aplikacji.\n\nTurbo DNS stosuje szyfrowanie, by zapobiec manipulowaniu wynikami, pomagając Ci bezpiecznie korzystać z internetu.</string>
   <string name="intro_details_headline">Jeszcze jedno…</string>
-  <string name="intro_details_body">Kliknij OK, by zezwolić aplikacji Intra na chronienie Twoich żądań DNS. Domyślnie będą one kierowane do publicznego serwera DNS Google (<a href="https://developers.google.com/speed/public-dns/privacy">Polityka prywatności</a>). W ustawieniach aplikacji możesz wybrać inną usługę.</string>
+  <string name="intro_details_body">Kliknij OK, by zezwolić aplikacji Turbo DNS na chronienie Twoich żądań DNS. Domyślnie będą one kierowane do publicznego serwera DNS Google (<a href="https://developers.google.com/speed/public-dns/privacy">Polityka prywatności</a>). W ustawieniach aplikacji możesz wybrać inną usługę.</string>
   <string name="intro_back">wstecz</string>
   <string name="intro_next">dalej</string>
   <string name="intro_accept">akceptuj</string>
@@ -16,9 +16,7 @@
   <string name="privacy_link">Polityka prywatności</string>
   <string name="tos_link">Warunki świadczenia usług</string>
   <string name="source_code">Kod źródłowy</string>
-  <string name="credits_text">Aplikacja Intra została stworzona przez <a href="https://jigsaw.google.com">Jigsaw</a>. Lokalizacja adresu IP jest ustalana
-    na podstawie danych ze strony DB-IP.com.</string>
-  <string name="indicator_on">Włączono</string>
+    <string name="indicator_on">Włączono</string>
   <string name="indicator_off">Wyłączono</string>
   <string name="status_exposed">Narażone</string>
   <string name="explanation_exposed">Połączenie jest narażone na ataki DNS.</string>
@@ -27,25 +25,25 @@
   <string name="status_upgraded">Podatne</string>
   <string name="explanation_upgraded">Połączenie jest obecnie chronione ustawieniem Prywatny DNS Androida, ale atakujący może je wyłączyć lub obejść.</string>
   <string name="status_strict">Chronione przez Androida</string>
-  <string name="explanation_strict">Aplikacja Intra wykryła, że jest włączone ustawienie Prywatny DNS Androida. Oznacza to, że zapytania DNS są już chronione i nie ma potrzeby włączać aplikacji Intra.</string>
+  <string name="explanation_strict">Aplikacja Turbo DNS wykryła, że jest włączone ustawienie Prywatny DNS Androida. Oznacza to, że zapytania DNS są już chronione i nie ma potrzeby włączać aplikacji Turbo DNS.</string>
   <string name="status_starting">Uruchamiam…</string>
-  <string name="explanation_starting">Daj nam chwilę. Intra nawiązuje połączenie z serwerem.</string>
+  <string name="explanation_starting">Daj nam chwilę. Turbo DNS nawiązuje połączenie z serwerem.</string>
   <string name="status_waiting">Czekam…</string>
   <string name="status_failing">Połączenie nie działa prawidłowo</string>
-  <string name="explanation_offline">Twoje urządzenie jest w trybie offline. Intra czeka na połączenie z internetem.</string>
-  <string name="explanation_vpn">Aplikacja Intra wykryła na tym urządzeniu inny VPN. Jeśli ją włączysz, VPN zostanie wyłączony. Intra nie jest tak bezpieczna jak zaufana sieć VPN.</string>
-  <string name="explanation_failing">Ostrzeżenie: zapytania nie są realizowane.  Wybierz inny serwer i ponownie uruchom aplikację Intra.</string>
+  <string name="explanation_offline">Twoje urządzenie jest w trybie offline. Turbo DNS czeka na połączenie z internetem.</string>
+  <string name="explanation_vpn">Aplikacja Turbo DNS wykryła na tym urządzeniu inny VPN. Jeśli ją włączysz, VPN zostanie wyłączony. Turbo DNS nie jest tak bezpieczna jak zaufana sieć VPN.</string>
+  <string name="explanation_failing">Ostrzeżenie: zapytania nie są realizowane.  Wybierz inny serwer i ponownie uruchom aplikację Turbo DNS.</string>
   <string name="button_failing">Wypróbuj inny serwer</string>
   <string name="system_details">Szczegółowe informacje o systemie</string>
   <string name="num_requests">Zapytania od początku używania</string>
   <string name="num_requests_headline">Zapytania DNS są wykonywane, gdy urządzenie sprawdza adres IP odpowiadający nazwie domenowej</string>
-  <string name="num_requests_body">Ta wartość to łączna liczba zapytań DNS wykonanych przez Twoje urządzenie, gdy aplikacja Intra była aktywna. Intra szyfruje te zapytania i wysyła je do zaufanego serwera, by mieć pewność, że uzyskiwane odpowiedzi są autentyczne.</string>
+  <string name="num_requests_body">Ta wartość to łączna liczba zapytań DNS wykonanych przez Twoje urządzenie, gdy aplikacja Turbo DNS była aktywna. Turbo DNS szyfruje te zapytania i wysyła je do zaufanego serwera, by mieć pewność, że uzyskiwane odpowiedzi są autentyczne.</string>
   <string name="queries_per_minute">Ostatnie zapytania</string>
   <string name="queries_per_minute_headline">Zapytania DNS są wykonywane na początku każdego połączenia</string>
   <string name="queries_per_minute_body">Ta wartość to liczba zapytań DNS wykonanych przez Twoje urządzenie w ostatniej minucie. Załadowanie skomplikowanej strony internetowej wymaga czasem ponad stu zapytań DNS.</string>
   <string name="transport_label">Szyfrowany protokół</string>
   <string name="transport_headline">Szyfrowanie chroni Twoje zapytania przed podsłuchaniem</string>
-  <string name="transport_body">Gdy używasz aplikacji Intra, Twoje zapytania DNS są szyfrowane, dzięki czemu tylko Ty i Twój serwer DNS znacie ich treść. Intra do szyfrowania używa protokołu DNS przez HTTPS.</string>
+  <string name="transport_body">Gdy używasz aplikacji Turbo DNS, Twoje zapytania DNS są szyfrowane, dzięki czemu tylko Ty i Twój serwer DNS znacie ich treść. Turbo DNS do szyfrowania używa protokołu DNS przez HTTPS.</string>
   <string name="default_transport_label">Domyślny protokół transportowy</string>
   <string name="insecure_transport">brak szyfrowania</string>
   <string name="insecure_transport_headline">Podstawowy protokół DNS nie stosuje szyfrowania</string>
@@ -55,9 +53,9 @@
   <string name="server_body">W tym polu jest podana nazwa bezpiecznego serwera DNS, którego używasz. W menu Ustawienia możesz wybrać inny serwer.</string>
   <string name="default_server_label">Obecny serwer DNS</string>
   <string name="insecure_server_headline">Możesz wybrać własny serwer DNS</string>
-  <string name="insecure_server_body">Gdy Intra jest wyłączona, większość urządzeń korzysta domyślnie z serwera DNS wybranego przez operatora sieci. W tym polu widać adres IP serwera DNS, którego obecnie używa Twoje urządzenie. Preferowany serwer możesz łatwo wybrać w aplikacji Intra lub na Androidzie P.</string>
+  <string name="insecure_server_body">Gdy Turbo DNS jest wyłączona, większość urządzeń korzysta domyślnie z serwera DNS wybranego przez operatora sieci. W tym polu widać adres IP serwera DNS, którego obecnie używa Twoje urządzenie. Preferowany serwer możesz łatwo wybrać w aplikacji Turbo DNS lub na Androidzie P.</string>
   <string name="strict_mode_server_headline">Używasz bezpiecznego serwera</string>
-  <string name="strict_mode_server_body">W tym polu widać nazwę serwera DNS skonfigurowanego na Androidzie jako Prywatny DNS.  Gdy Intra jest wyłączona, Twoje aplikacje powinny przesyłać zapytania DNS do tego serwera.</string>
+  <string name="strict_mode_server_body">W tym polu widać nazwę serwera DNS skonfigurowanego na Androidzie jako Prywatny DNS.  Gdy Turbo DNS jest wyłączona, Twoje aplikacje powinny przesyłać zapytania DNS do tego serwera.</string>
   <string name="unknown_server">(nieznany serwer)</string>
   <string name="show_history">Pokaż ostatnie zapytania</string>
   <string name="query_label">Zapytanie</string>
@@ -72,15 +70,15 @@
   <string name="server_choice_custom">URL własnego serwera</string>
   <string name="server_choice_warning">Własny serwer musi mieć prawidłowy URL zaczynający się od https://</string>
   <string name="excluded_apps">Wykluczone aplikacje</string>
-  <string name="excluded_apps_summary">Intra nie będzie obsługiwać zapytań DNS z wybranych aplikacji. Jeśli aplikacja
-    jest niezgodna z Intra, możesz dodać ją tutaj.</string>
-  <string name="excluded_apps_title">Wybierz aplikacje do wykluczenia w Intra</string>
+  <string name="excluded_apps_summary">Turbo DNS nie będzie obsługiwać zapytań DNS z wybranych aplikacji. Jeśli aplikacja
+    jest niezgodna z Turbo DNS, możesz dodać ją tutaj.</string>
+  <string name="excluded_apps_title">Wybierz aplikacje do wykluczenia w Turbo DNS</string>
   <string name="old_android">Ta funkcja jest niedostępna w tej wersji Androida.</string>
   <string name="notification_title">Ochrona DNS jest aktywna</string>
   <string name="notification_content">Kliknij, by zmienić ustawienia ochrony DNS</string>
   <string name="channel_name">Powiadomienie o aktywnej ochronie DNS</string>
   <string name="channel_description">To powiadomienie wyświetla się, gdy ochrona DNS jest aktywna.</string>
-  <string name="warning_title">Ostrzeżenie: aplikacja Intra została dezaktywowana</string>
+  <string name="warning_title">Ostrzeżenie: aplikacja Turbo DNS została dezaktywowana</string>
   <string name="warning_channel_name">Ostrzeżenie</string>
-  <string name="warning_channel_description">Wyświetla się, gdy w aplikacji Intra wystąpił problem.</string>
+  <string name="warning_channel_description">Wyświetla się, gdy w aplikacji Turbo DNS wystąpił problem.</string>
 </resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="slf4j-android-1.7.25">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/sockslib-repo/org/slf4j/slf4j-android/1.7.25/slf4j-android-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

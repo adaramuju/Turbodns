@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="httpcore-4.4.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

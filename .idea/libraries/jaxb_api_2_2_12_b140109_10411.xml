@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxb-api-2.2.12-b140109.10411">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/javax/xml/bind/jaxb-api/2.2.12-b140109.1041/jaxb-api-2.2.12-b140109.1041.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

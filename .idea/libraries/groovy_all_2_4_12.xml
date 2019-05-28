@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="groovy-all-2.4.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

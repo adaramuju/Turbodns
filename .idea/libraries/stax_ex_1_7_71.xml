@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="stax-ex-1.7.71">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/org/jvnet/staxex/stax-ex/1.7.7/stax-ex-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

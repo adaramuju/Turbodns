@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Отворенији приступ интернету</string>
-  <string name="intro_benefit_body">Intra вас штити од манипулације DNS-ом, сајбер-напада којим се блокира приступ сајтовима са вестима, платформама друштвених медија и апликацијама за размену порука.\n\nИако вас Intra штити од манипулације DNS-ом, има других, сложенијих техника блокирања и напада од којих Intra не штити.</string>
+  <string name="intro_benefit_body">Turbo DNS вас штити од манипулације DNS-ом, сајбер-напада којим се блокира приступ сајтовима са вестима, платформама друштвених медија и апликацијама за размену порука.\n\nИако вас Turbo DNS штити од манипулације DNS-ом, има других, сложенијих техника блокирања и напада од којих Turbo DNS не штити.</string>
   <string name="intro_manipulation_headline">Заштита од манипулације DNS-ом</string>
-  <string name="intro_manipulation_body">Intra штити везу са системом имена домена (DNS), који вам пружа тачне адресе које су вам потребне да бисте посетили веб-сајт или отворили апликацију.\n\nIntra користи шифровање да резултатима не би могло да се манипулише, што вам омогућава да безбедно приступате интернету.</string>
+  <string name="intro_manipulation_body">Turbo DNS штити везу са системом имена домена (DNS), који вам пружа тачне адресе које су вам потребне да бисте посетили веб-сајт или отворили апликацију.\n\nTurbo DNS користи шифровање да резултатима не би могло да се манипулише, што вам омогућава да безбедно приступате интернету.</string>
   <string name="intro_details_headline">Само још нешто…</string>
-  <string name="intro_details_body">Додирните Потврди да бисте дозволили Intra-и да штити DNS захтеве. Они ће се подразумевано усмеравати на Google јавни DNS (<a href="https://developers.google.com/speed/public-dns/privacy">Политика приватности</a>). Можете да изаберете другу услугу у подешавањима апликације.</string>
+  <string name="intro_details_body">Додирните Потврди да бисте дозволили Turbo DNS-и да штити DNS захтеве. Они ће се подразумевано усмеравати на Google јавни DNS (<a href="https://developers.google.com/speed/public-dns/privacy">Политика приватности</a>). Можете да изаберете другу услугу у подешавањима апликације.</string>
   <string name="intro_back">назад</string>
   <string name="intro_next">даље</string>
   <string name="intro_accept">прихвати</string>
@@ -16,9 +16,7 @@
   <string name="privacy_link">Политика приватности</string>
   <string name="tos_link">Услови коришћења услуге</string>
   <string name="source_code">Изворни кôд</string>
-  <string name="credits_text">Intra-у је направио <a href="https://jigsaw.google.com">Jigsaw</a>. IP локације су засноване на подацима
-    са DB-IP.com.</string>
-  <string name="indicator_on">Укључено</string>
+    <string name="indicator_on">Укључено</string>
   <string name="indicator_off">Искључено</string>
   <string name="status_exposed">Изложено</string>
   <string name="explanation_exposed">Веза је изложена DNS нападима.</string>
@@ -28,22 +26,22 @@
   <string name="explanation_upgraded">Везу тренутно штити Приватни DNS у Android-у, али би нападач могао да онемогући
     или наруши ову заштиту.</string>
   <string name="status_strict">Штити Android</string>
-  <string name="explanation_strict">Intra је открила да је подешавање Приватни DNS у Android-у омогућено.  То значи да су DNS
-    упити већ заштићени, па не морате да омогућите Intra-у.</string>
+  <string name="explanation_strict">Turbo DNS је открила да је подешавање Приватни DNS у Android-у омогућено.  То значи да су DNS
+    упити већ заштићени, па не морате да омогућите Turbo DNS-у.</string>
   <string name="status_starting">Покреће се…</string>
-  <string name="explanation_starting">Сачекајте.  Intra успоставља везу са сервером.</string>
+  <string name="explanation_starting">Сачекајте.  Turbo DNS успоставља везу са сервером.</string>
   <string name="status_waiting">Чека се…</string>
   <string name="status_failing">Не успева</string>
-  <string name="explanation_offline">Уређај је офлајн.  Intra чека на мрежну везу.</string>
-  <string name="explanation_vpn">Intra је открила још један VPN на уређају.  Ако омогућите Intra-у, тај VPN ће се онемогућити.
-    Intra је мање безбедна од поузданог VPN-а.</string>
-  <string name="explanation_failing">Упозорење: Упити не успевају.  Не би било лоше да изаберете други сервер или рестартујете Intra-у.</string>
+  <string name="explanation_offline">Уређај је офлајн.  Turbo DNS чека на мрежну везу.</string>
+  <string name="explanation_vpn">Turbo DNS је открила још један VPN на уређају.  Ако омогућите Turbo DNS-у, тај VPN ће се онемогућити.
+    Turbo DNS је мање безбедна од поузданог VPN-а.</string>
+  <string name="explanation_failing">Упозорење: Упити не успевају.  Не би било лоше да изаберете други сервер или рестартујете Turbo DNS-у.</string>
   <string name="button_failing">Пробајте са другим сервером</string>
   <string name="system_details">Детаљи о систему</string>
   <string name="num_requests">Укупан број упита</string>
   <string name="num_requests_headline">До DNS упита долази када уређај потражи IP адресу за име домена</string>
-  <string name="num_requests_body">Ова вредност приказује укупан број DNS упита које је уређај обавио док је Intra била
-    активна.  Intra шифрује ове упите и шаље их поузданом северу да бисте
+  <string name="num_requests_body">Ова вредност приказује укупан број DNS упита које је уређај обавио док је Turbo DNS била
+    активна.  Turbo DNS шифрује ове упите и шаље их поузданом северу да бисте
     добијали аутентичне резултате.</string>
   <string name="queries_per_minute">Недавни упити</string>
   <string name="queries_per_minute_headline">DNS упити се упућују на почетку сваке везе</string>
@@ -51,8 +49,8 @@
     Учитавање сложене веб-странице може да захтева преко сто DNS упита.</string>
   <string name="transport_label">Шифрован пренос</string>
   <string name="transport_headline">Шифровање штити упите од других</string>
-  <string name="transport_body">Када користите Intra-у, DNS упити се шифрују, па само ви и ваш DNS север видите
-    које DNS упите упућујете.  Intra за шифровање примењује протокол DNS over HTTPS.</string>
+  <string name="transport_body">Када користите Turbo DNS-у, DNS упити се шифрују, па само ви и ваш DNS север видите
+    које DNS упите упућујете.  Turbo DNS за шифровање примењује протокол DNS over HTTPS.</string>
   <string name="default_transport_label">Подразумевани пренос</string>
   <string name="insecure_transport">није шифровано</string>
   <string name="insecure_transport_headline">Основни DNS није шифрован</string>
@@ -65,12 +63,10 @@
     други сервер у менију Подешавања.</string>
   <string name="default_server_label">Актуелни DNS сервер</string>
   <string name="insecure_server_headline">Можете да изаберете свој DNS сервер</string>
-  <string name="insecure_server_body">Када је Intra онемогућена, већина уређаја је унапред конфигурисана тако да користи DNS сервер који изабере
-    ваш мрежни оператер. Ово поље приказује IP адресу DNS сервера који уређај тренутно
-    користи. Ако имате Intra-у или Android P, лако можете да изаберете сервер који желите.</string>
+  <string name="insecure_server_body">Када је Turbo DNS онемогућена, већина уређаја је унапред конфигурисана тако да користи DNS сервер који изабере ваш мрежни оператер. Ово поље приказује IP адресу DNS сервера који уређај тренутно користи. Ако имате Turbo DNS-у или Android P, лако можете да изаберете сервер који желите.</string>
   <string name="strict_mode_server_headline">Изабрали сте безбедан сервер</string>
   <string name="strict_mode_server_body">Ово поље приказује име DNS сервера који сте конфигурисали у подешавању Приватни DNS
-    у Android-у.  Када је Intra онемогућена, апликације треба да шаљу DNS упите овом серверу.</string>
+    у Android-у.  Када је Turbo DNS онемогућена, апликације треба да шаљу DNS упите овом серверу.</string>
   <string name="unknown_server">(непознат сервер)</string>
   <string name="show_history">Прикажи недавне упите</string>
   <string name="query_label">Упит</string>
@@ -85,15 +81,15 @@
   <string name="server_choice_custom">URL прилагођеног сервера</string>
   <string name="server_choice_warning">Прилагођени сервер мора да буде важећи https:// URL</string>
   <string name="excluded_apps">Изузете апликације</string>
-  <string name="excluded_apps_summary">DNS упити изабраних апликација неће се упућивати преко Intra-е.  Ако је нека апликација
-    некомпатибилна са Intra-ом, можете да је додате овде.</string>
-  <string name="excluded_apps_title">Означите апликације које треба изузети из Intra-е</string>
+  <string name="excluded_apps_summary">DNS упити изабраних апликација неће се упућивати преко Turbo DNS-е.  Ако је нека апликација
+    некомпатибилна са Turbo DNS-ом, можете да је додате овде.</string>
+  <string name="excluded_apps_title">Означите апликације које треба изузети из Turbo DNS-е</string>
   <string name="old_android">Ова функционалност није доступна у вашој верзији Android-а.</string>
   <string name="notification_title">DNS заштита је активна</string>
   <string name="notification_content">Додирните да бисте променили подешавање заштите DNS-а</string>
   <string name="channel_name">Обавештење о томе да је DNS заштита активна</string>
   <string name="channel_description">Ово обавештење се појављује док је DNS заштита активна.</string>
-  <string name="warning_title">Упозорење: Intra је деактивирана</string>
+  <string name="warning_title">Упозорење: Turbo DNS је деактивирана</string>
   <string name="warning_channel_name">Упозорење</string>
-  <string name="warning_channel_description">Приказује се када Intra наиђе на проблем.</string>
+  <string name="warning_channel_description">Приказује се када Turbo DNS наиђе на проблем.</string>
 </resources>

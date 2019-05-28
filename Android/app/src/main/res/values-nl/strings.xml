@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Opener internettoegang</string>
-  <string name="intro_benefit_body">Intra beschermt je tegen DNS-manipulatie, een cyberaanval waarbij de toegang tot nieuwssites, social media-platforms en berichten-apps wordt geblokkeerd.\n\nHoewel Intra je beschermt tegen DNS-manipulatie, zijn er andere, ingewikkeldere technieken en aanvallen waartegen Intra geen bescherming biedt.</string>
+  <string name="intro_benefit_body">Turbo DNS beschermt je tegen DNS-manipulatie, een cyberaanval waarbij de toegang tot nieuwssites, social media-platforms en berichten-apps wordt geblokkeerd.\n\nHoewel Turbo DNS je beschermt tegen DNS-manipulatie, zijn er andere, ingewikkeldere technieken en aanvallen waartegen Turbo DNS geen bescherming biedt.</string>
   <string name="intro_manipulation_headline">Bescherming tegen DNS-manipulatie</string>
-  <string name="intro_manipulation_body">Intra beschermt je verbinding met het Domain Name System (DNS). DNS levert de exacte adressen waarmee je een website kunt bezoeken of een app kunt openen.\n\nIntra versleutelt resultaten, zodat deze niet kunnen worden gemanipuleerd en je veilig blijft op internet.</string>
+  <string name="intro_manipulation_body">Turbo DNS beschermt je verbinding met het Domain Name System (DNS). DNS levert de exacte adressen waarmee je een website kunt bezoeken of een app kunt openen.\n\nTurbo DNS versleutelt resultaten, zodat deze niet kunnen worden gemanipuleerd en je veilig blijft op internet.</string>
   <string name="intro_details_headline">Nog iets…</string>
-  <string name="intro_details_body">Tik op OK om Intra toe te staan je DNS-verzoeken te beschermen. Deze worden standaard gerouteerd door de openbare DNS van Google (<a href="https://developers.google.com/speed/public-dns/privacy">privacybeleid</a>). Je kunt een andere service kiezen in de app-instellingen.</string>
+  <string name="intro_details_body">Tik op OK om Turbo DNS toe te staan je DNS-verzoeken te beschermen. Deze worden standaard gerouteerd door de openbare DNS van Google (<a href="https://developers.google.com/speed/public-dns/privacy">privacybeleid</a>). Je kunt een andere service kiezen in de app-instellingen.</string>
   <string name="intro_back">vorige</string>
   <string name="intro_next">volgende</string>
   <string name="intro_accept">accepteren</string>
@@ -16,8 +16,7 @@
   <string name="privacy_link">Privacybeleid</string>
   <string name="tos_link">Algemene voorwaarden</string>
   <string name="source_code">Broncode</string>
-  <string name="credits_text">Intra is gemaakt door <a href="https://jigsaw.google.com">Jigsaw</a>. IP-locaties worden gebaseerd op gegevens van DB-IP.com.</string>
-  <string name="indicator_on">Ingeschakeld</string>
+    <string name="indicator_on">Ingeschakeld</string>
   <string name="indicator_off">Uitgeschakeld</string>
   <string name="status_exposed">Blootgesteld</string>
   <string name="explanation_exposed">Je verbinding is blootgesteld aan DNS-aanvallen.</string>
@@ -26,25 +25,25 @@
   <string name="status_upgraded">Kwetsbaar</string>
   <string name="explanation_upgraded">Je verbinding wordt momenteel beschermd door Android Private DNS, maar hackers kunnen deze bescherming uitschakelen of omzeilen.</string>
   <string name="status_strict">Beschermd door Android</string>
-  <string name="explanation_strict">Intra heeft gedetecteerd dat de instelling \'Android Private DNS\' is ingeschakeld. Dit betekent dat je DNS-zoekopdrachten al worden beschermd. Je hoeft Intra dus niet in te schakelen.</string>
+  <string name="explanation_strict">Turbo DNS heeft gedetecteerd dat de instelling \'Android Private DNS\' is ingeschakeld. Dit betekent dat je DNS-zoekopdrachten al worden beschermd. Je hoeft Turbo DNS dus niet in te schakelen.</string>
   <string name="status_starting">Starten…</string>
-  <string name="explanation_starting">Een ogenblik geduld. Intra maakt verbinding met de server.</string>
+  <string name="explanation_starting">Een ogenblik geduld. Turbo DNS maakt verbinding met de server.</string>
   <string name="status_waiting">Wachten…</string>
   <string name="status_failing">Mislukt</string>
-  <string name="explanation_offline">Je apparaat is offline. Intra wacht op een netwerkverbinding.</string>
-  <string name="explanation_vpn">Intra heeft een ander VPN gedetecteerd op je apparaat. Als je Intra inschakelt, wordt dit VPN uitgeschakeld. Intra is minder veilig dan een vertrouwd VPN.</string>
-  <string name="explanation_failing">Waarschuwing: Zoekopdrachten mislukken. Kies een andere server of start Intra opnieuw.</string>
+  <string name="explanation_offline">Je apparaat is offline. Turbo DNS wacht op een netwerkverbinding.</string>
+  <string name="explanation_vpn">Turbo DNS heeft een ander VPN gedetecteerd op je apparaat. Als je Turbo DNS inschakelt, wordt dit VPN uitgeschakeld. Turbo DNS is minder veilig dan een vertrouwd VPN.</string>
+  <string name="explanation_failing">Waarschuwing: Zoekopdrachten mislukken. Kies een andere server of start Turbo DNS opnieuw.</string>
   <string name="button_failing">Een andere server proberen</string>
   <string name="system_details">Systeemgegevens</string>
   <string name="num_requests">Aantal zoekopdrachten</string>
   <string name="num_requests_headline">DNS-zoekopdrachten vinden plaats wanneer je apparaat het IP-adres van een domeinnaam opzoekt</string>
-  <string name="num_requests_body">Deze waarde geeft het aantal DNS-zoekopdrachten aan die zijn uitgevoerd toen Intra actief was. Intra versleutelt deze zoekopdrachten en stuurt ze naar een vertrouwde server. Zo zie je alleen authentieke resultaten.</string>
+  <string name="num_requests_body">Deze waarde geeft het aantal DNS-zoekopdrachten aan die zijn uitgevoerd toen Turbo DNS actief was. Turbo DNS versleutelt deze zoekopdrachten en stuurt ze naar een vertrouwde server. Zo zie je alleen authentieke resultaten.</string>
   <string name="queries_per_minute">Recente zoekopdrachten</string>
   <string name="queries_per_minute_headline">DNS-zoekopdrachten worden uitgevoerd aan het begin van elke verbinding</string>
   <string name="queries_per_minute_body">Deze waarde geeft het aantal DNS-zoekopdrachten aan die in de afgelopen minuut zijn uitgevoerd op je apparaat. Er kunnen meer dan honderd DNS-zoekopdrachten plaatsvinden om een complexe webpagina te openen.</string>
   <string name="transport_label">Versleuteld transport</string>
   <string name="transport_headline">Je zoekopdrachten zijn beschermd tegen vreemde ogen dankzij versleuteling</string>
-  <string name="transport_body">Wanneer je Intra gebruikt, worden je DNS-zoekopdrachten versleuteld, zodat alleen jij en je DNS-server kunnen zien welke DNS-zoekopdrachten je uitvoert. Intra implementeert het DNS-over-HTTPS-protocol voor versleuteling.</string>
+  <string name="transport_body">Wanneer je Turbo DNS gebruikt, worden je DNS-zoekopdrachten versleuteld, zodat alleen jij en je DNS-server kunnen zien welke DNS-zoekopdrachten je uitvoert. Turbo DNS implementeert het DNS-over-HTTPS-protocol voor versleuteling.</string>
   <string name="default_transport_label">Standaardtransport</string>
   <string name="insecure_transport">onversleuteld</string>
   <string name="insecure_transport_headline">Basis-DNS is onversleuteld</string>
@@ -54,9 +53,9 @@
   <string name="server_body">In dit veld staat de naam van de veilige DNS-server die je gebruikt. Je kunt deze wijzigen in een andere server in het menu Instellingen.</string>
   <string name="default_server_label">Huidige DNS-server</string>
   <string name="insecure_server_headline">Je kunt je eigen DNS-server kiezen</string>
-  <string name="insecure_server_body">Wanneer Intra is uitgeschakeld, geldt voor de meeste apparaten dat deze zo zijn geconfigureerd dat de DNS-server wordt gebruikt die wordt gekozen door je netwerkoperator. In dit veld staat het IP-adres van de DNS-server die je apparaat momenteel gebruikt. Met Intra of Android P kun je eenvoudig een server kiezen.</string>
+  <string name="insecure_server_body">Wanneer Turbo DNS is uitgeschakeld, geldt voor de meeste apparaten dat deze zo zijn geconfigureerd dat de DNS-server wordt gebruikt die wordt gekozen door je netwerkoperator. In dit veld staat het IP-adres van de DNS-server die je apparaat momenteel gebruikt. Met Turbo DNS of Android P kun je eenvoudig een server kiezen.</string>
   <string name="strict_mode_server_headline">Je hebt een veilige server geselecteerd</string>
-  <string name="strict_mode_server_body">In dit veld staat de naam van de DNS-server die je hebt geconfigureerd in de instelling \'Privé DNS\' van Android.  Wanneer Intra is ingeschakeld, sturen je apps DNS-zoekopdrachten naar deze server.</string>
+  <string name="strict_mode_server_body">In dit veld staat de naam van de DNS-server die je hebt geconfigureerd in de instelling \'Privé DNS\' van Android.  Wanneer Turbo DNS is ingeschakeld, sturen je apps DNS-zoekopdrachten naar deze server.</string>
   <string name="unknown_server">(onbekende server)</string>
   <string name="show_history">Recente zoekopdrachten weergeven</string>
   <string name="query_label">Zoekopdracht</string>
@@ -71,15 +70,15 @@
   <string name="server_choice_custom">Aangepaste server-URL</string>
   <string name="server_choice_warning">De aangepaste server moet een geldige https://-URL zijn</string>
   <string name="excluded_apps">Uitgesloten apps</string>
-  <string name="excluded_apps_summary">DNS-zoekopdrachten van geselecteerde apps gaan niet via Intra. Als een app dus niet werkt
-    met Intra, kun je die hier toevoegen.</string>
-  <string name="excluded_apps_title">Apps markeren die Intra niet moeten gebruiken</string>
+  <string name="excluded_apps_summary">DNS-zoekopdrachten van geselecteerde apps gaan niet via Turbo DNS. Als een app dus niet werkt
+    met Turbo DNS, kun je die hier toevoegen.</string>
+  <string name="excluded_apps_title">Apps markeren die Turbo DNS niet moeten gebruiken</string>
   <string name="old_android">Deze functie is niet beschikbaar in jouw versie van Android.</string>
   <string name="notification_title">DNS-bescherming is actief</string>
   <string name="notification_content">Tik hier om de instelling voor DNS-bescherming te wijzigen</string>
   <string name="channel_name">Melding \'DNS-bescherming actief\'</string>
   <string name="channel_description">Deze melding verschijnt wanneer de DNS-bescherming actief is.</string>
-  <string name="warning_title">Waarschuwing: Intra is uitgeschakeld</string>
+  <string name="warning_title">Waarschuwing: Turbo DNS is uitgeschakeld</string>
   <string name="warning_channel_name">Waarschuwing</string>
-  <string name="warning_channel_description">Wordt weergegeven wanneer er een probleem is met Intra.</string>
+  <string name="warning_channel_description">Wordt weergegeven wanneer er een probleem is met Turbo DNS.</string>
 </resources>

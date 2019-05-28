@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Більший доступ до Інтернету</string>
-  <string name="intro_benefit_body">Додаток Intra захищає вас від маніпуляцій із DNS – кібератак, які використовуються для блокування доступу до новинних сайтів, соціальних медійних платформ і додатків для обміну повідомленнями.\n\nХоча додаток Intra захищає вас від маніпуляцій із DNS, існують інші, складніші способи блокування й атак, проти яких Intra безсила.</string>
+  <string name="intro_benefit_body">Додаток Turbo DNS захищає вас від маніпуляцій із DNS – кібератак, які використовуються для блокування доступу до новинних сайтів, соціальних медійних платформ і додатків для обміну повідомленнями.\n\nХоча додаток Turbo DNS захищає вас від маніпуляцій із DNS, існують інші, складніші способи блокування й атак, проти яких Turbo DNS безсила.</string>
   <string name="intro_manipulation_headline">Захист від маніпуляцій із DNS</string>
-  <string name="intro_manipulation_body">Додаток Intra захищає ваше з’єднання із системою доменних імен (DNS), яка надає точні адреси для відвідування веб-сайтів або відкриття додатків.\n\nДодаток Intra використовує шифрування, щоб забезпечити недоторканність результатів і надійний доступ до Інтернету.</string>
+  <string name="intro_manipulation_body">Додаток Turbo DNS захищає ваше з’єднання із системою доменних імен (DNS), яка надає точні адреси для відвідування веб-сайтів або відкриття додатків.\n\nДодаток Turbo DNS використовує шифрування, щоб забезпечити недоторканність результатів і надійний доступ до Інтернету.</string>
   <string name="intro_details_headline">І наостанок…</string>
-  <string name="intro_details_body">Торкніться \"OK\", щоб захистити свої DNS-запити за допомогою додатка Intra. За умовчанням вони будуть скеровуватися на загальнодоступні DNS-сервери Google (<a href="https://developers.google.com/speed/public-dns/privacy">Політика конфіденційності</a>). Ви також можете вибрати інший сервіс у налаштуваннях додатка.</string>
+  <string name="intro_details_body">Торкніться \"OK\", щоб захистити свої DNS-запити за допомогою додатка Turbo DNS. За умовчанням вони будуть скеровуватися на загальнодоступні DNS-сервери Google (<a href="https://developers.google.com/speed/public-dns/privacy">Політика конфіденційності</a>). Ви також можете вибрати інший сервіс у налаштуваннях додатка.</string>
   <string name="intro_back">назад</string>
   <string name="intro_next">далі</string>
   <string name="intro_accept">прийняти</string>
@@ -16,8 +16,7 @@
   <string name="privacy_link">Політика конфіденційності</string>
   <string name="tos_link">Умови використання</string>
   <string name="source_code">Вихідний код</string>
-  <string name="credits_text">Intra – розробка компанії <a href="https://jigsaw.google.com">Jigsaw</a>. Місцезнаходження IP-адрес базуються на даних сайту DB-IP.com.</string>
-  <string name="indicator_on">Увімк.</string>
+    <string name="indicator_on">Увімк.</string>
   <string name="indicator_off">Вимк.</string>
   <string name="status_exposed">Незахищене</string>
   <string name="explanation_exposed">Ваше з’єднання не захищено від DNS-атак.</string>
@@ -26,25 +25,25 @@
   <string name="status_upgraded">Уразливе</string>
   <string name="explanation_upgraded">Ваше з’єднання зараз захищено функцією \"Приватна DNS\" в ОС Android, але зловмисники можуть вимкнути або обійти цей захист.</string>
   <string name="status_strict">Захист ОС Android</string>
-  <string name="explanation_strict">Додаток Intra виявив увімкнену функцію \"Приватна DNS\" в ОС Android. Це означає, що ваші запити DNS уже захищено, тому немає потреби вмикати додаток Intra.</string>
+  <string name="explanation_strict">Додаток Turbo DNS виявив увімкнену функцію \"Приватна DNS\" в ОС Android. Це означає, що ваші запити DNS уже захищено, тому немає потреби вмикати додаток Turbo DNS.</string>
   <string name="status_starting">Запуск…</string>
-  <string name="explanation_starting">Зачекайте. Додаток Intra встановлює з’єднання із сервером.</string>
+  <string name="explanation_starting">Зачекайте. Додаток Turbo DNS встановлює з’єднання із сервером.</string>
   <string name="status_waiting">Очікування…</string>
   <string name="status_failing">Помилка</string>
-  <string name="explanation_offline">Ваш пристрій не підключено до Інтернету. Додаток Intra очікує на з’єднання з мережею.</string>
-  <string name="explanation_vpn">Додаток Intra виявив іншу мережу VPN на вашому пристрої. Якщо ввімкнути Intra, цю віртуальну приватну мережу буде вимкнено. З’єднання Intra не настільки безпечне, як довірена мережа VPN.</string>
-  <string name="explanation_failing">Застереження. Запити не виконуються. Виберіть інший сервер або перезапустіть додаток Intra.</string>
+  <string name="explanation_offline">Ваш пристрій не підключено до Інтернету. Додаток Turbo DNS очікує на з’єднання з мережею.</string>
+  <string name="explanation_vpn">Додаток Turbo DNS виявив іншу мережу VPN на вашому пристрої. Якщо ввімкнути Turbo DNS, цю віртуальну приватну мережу буде вимкнено. З’єднання Turbo DNS не настільки безпечне, як довірена мережа VPN.</string>
+  <string name="explanation_failing">Застереження. Запити не виконуються. Виберіть інший сервер або перезапустіть додаток Turbo DNS.</string>
   <string name="button_failing">Спробувати інший сервер</string>
   <string name="system_details">Системні дані</string>
   <string name="num_requests">Усі запити</string>
   <string name="num_requests_headline">DNS-запити надсилаються, коли ваш пристрій шукає IP-адресу для доменного імені</string>
-  <string name="num_requests_body">Це значення показує загальну кількість DNS-запитів, які ваш пристрій виконав, доки додаток Intra був активним. Intra шифрує ці запити й надсилає їх на надійний сервер, щоб забезпечити вас автентичними результатами.</string>
+  <string name="num_requests_body">Це значення показує загальну кількість DNS-запитів, які ваш пристрій виконав, доки додаток Turbo DNS був активним. Turbo DNS шифрує ці запити й надсилає їх на надійний сервер, щоб забезпечити вас автентичними результатами.</string>
   <string name="queries_per_minute">Останні запити</string>
   <string name="queries_per_minute_headline">DNS-запити надсилаються на початку кожного з’єднання</string>
   <string name="queries_per_minute_body">Це значення показує кількість DNS-запитів, які ваш пристрій виконав протягом останньої хвилини. Для завантаження складної веб-сторінки може знадобитися більше сотні DNS-запитів.</string>
   <string name="transport_label">Шифроване передавання</string>
   <string name="transport_headline">Шифрування захищає ваші запити від чужих очей</string>
-  <string name="transport_body">Доки додаток Intra активний, ваші DNS-запити шифруються, тому тільки ви й ваш DNS-сервер можете бачити, які DNS-запити надсилаються. Intra реалізує DNS через протокол HTTPS для шифрування.</string>
+  <string name="transport_body">Доки додаток Turbo DNS активний, ваші DNS-запити шифруються, тому тільки ви й ваш DNS-сервер можете бачити, які DNS-запити надсилаються. Turbo DNS реалізує DNS через протокол HTTPS для шифрування.</string>
   <string name="default_transport_label">Протокол за умовчанням</string>
   <string name="insecure_transport">незашифрований</string>
   <string name="insecure_transport_headline">Базовий DNS незашифровано</string>
@@ -54,11 +53,11 @@
   <string name="server_body">У цьому полі відображається назва використовуваного захищеного DNS-сервера. Ви також можете змінити сервер у меню \"Налаштування\".</string>
   <string name="default_server_label">Поточний DNS-сервер</string>
   <string name="insecure_server_headline">Ви можете вибрати власний DNS-сервер</string>
-  <string name="insecure_server_body">Коли додаток Intra вимкнено, більшість пристроїв (відповідно до попередніх налаштувань) використовують DNS-сервер,
+  <string name="insecure_server_body">Коли додаток Turbo DNS вимкнено, більшість пристроїв (відповідно до попередніх налаштувань) використовують DNS-сервер,
     указаний вашим оператором мережі. У цьому полі показується ІР-адреса DNS-сервера, який зараз використовує ваш
-    пристрій. У додатку Intra або операційній системі Android P можна легко вибрати будь-який інший сервер.</string>
+    пристрій. У додатку Turbo DNS або операційній системі Android P можна легко вибрати будь-який інший сервер.</string>
   <string name="strict_mode_server_headline">Ви вибрали захищений сервер</string>
-  <string name="strict_mode_server_body">У цьому полі показується назва DNS-сервера, який ви вказали в налаштуванні \"Приватна DNS\" на пристрої Android.  Якщо вимкнути додаток Intra, ваші додатки надсилатимуть DNS-запити на цей сервер.</string>
+  <string name="strict_mode_server_body">У цьому полі показується назва DNS-сервера, який ви вказали в налаштуванні \"Приватна DNS\" на пристрої Android.  Якщо вимкнути додаток Turbo DNS, ваші додатки надсилатимуть DNS-запити на цей сервер.</string>
   <string name="unknown_server">(невідомий сервер)</string>
   <string name="show_history">Показувати останні запити</string>
   <string name="query_label">Запит</string>
@@ -73,15 +72,15 @@
   <string name="server_choice_custom">URL-адреса власного сервера</string>
   <string name="server_choice_warning">Власний сервер має бути дійсною URL-адресою https://</string>
   <string name="excluded_apps">Виключені додатки</string>
-  <string name="excluded_apps_summary">DNS-запити з будь-яких вибраних додатків не проходитимуть через Intra.  Якщо додаток виявиться
-    несумісним з Intra, можете додати його тут.</string>
-  <string name="excluded_apps_title">Позначте, що виключити з Intra</string>
+  <string name="excluded_apps_summary">DNS-запити з будь-яких вибраних додатків не проходитимуть через Turbo DNS.  Якщо додаток виявиться
+    несумісним з Turbo DNS, можете додати його тут.</string>
+  <string name="excluded_apps_title">Позначте, що виключити з Turbo DNS</string>
   <string name="old_android">Ця функція недоступна у вашій версії Android.</string>
   <string name="notification_title">Захист DNS увімкнено</string>
   <string name="notification_content">Торкніться, щоб змінити налаштування захисту DNS</string>
   <string name="channel_name">Сповіщення про наявність захисту DNS</string>
   <string name="channel_description">Це сповіщення з’являється, коли захист DNS увімкнено.</string>
-  <string name="warning_title">Застереження: систему Intra вимкнено</string>
+  <string name="warning_title">Застереження: систему Turbo DNS вимкнено</string>
   <string name="warning_channel_name">Застереження</string>
-  <string name="warning_channel_description">Показується, коли система Intra виявляє проблему.</string>
+  <string name="warning_channel_description">Показується, коли система Turbo DNS виявляє проблему.</string>
 </resources>

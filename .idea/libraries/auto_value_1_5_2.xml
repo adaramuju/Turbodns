@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="auto-value-1.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/com/google/auto/value/auto-value/1.5.2/auto-value-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

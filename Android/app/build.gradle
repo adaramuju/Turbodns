@@ -27,7 +27,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "app.intra"
+        applicationId "net.autogroup.turbodns"
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 33

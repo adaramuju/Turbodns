@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="stax-ex-1.7.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/org/jvnet/staxex/stax-ex/1.7.7/stax-ex-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-oauth-client-1.22.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/firebase-repo/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

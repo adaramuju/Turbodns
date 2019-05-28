@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FastInfoset-1.2.131">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

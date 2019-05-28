@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Daha açık internet erişimi</string>
-  <string name="intro_benefit_body">Intra sizi, haber sitelerine, sosyal medya platformlarına ve mesajlaşma uygulamalarına erişimi engellemek için kullanılan bir siber saldırı olan DNS manipülasyonuna karşı korur.\n\nIntra sizi DNS manipülasyonuna karşı korusa da, Intra\'nın koruma sağlayamayacağı diğer, daha karmaşık engelleme teknikleri ve saldırıları vardır.</string>
+  <string name="intro_benefit_body">Turbo DNS sizi, haber sitelerine, sosyal medya platformlarına ve mesajlaşma uygulamalarına erişimi engellemek için kullanılan bir siber saldırı olan DNS manipülasyonuna karşı korur.\n\nTurbo DNS sizi DNS manipülasyonuna karşı korusa da, Turbo DNS\'nın koruma sağlayamayacağı diğer, daha karmaşık engelleme teknikleri ve saldırıları vardır.</string>
   <string name="intro_manipulation_headline">DNS manipülasyonundan koruma</string>
-  <string name="intro_manipulation_body">Intra, bir web sitesini ziyaret etmek veya bir uygulamayı açmak için ihtiyaç duyduğunuz tam adresleri sağlayan Alan Adı Sistemi (DNS) ile kurduğunuz bağlantıyı korur.\n\nIntra, sonuçların manipüle edilememesi için şifreleme kullanır ve internete güvenle erişmenize yardımcı olur.</string>
+  <string name="intro_manipulation_body">Turbo DNS, bir web sitesini ziyaret etmek veya bir uygulamayı açmak için ihtiyaç duyduğunuz tam adresleri sağlayan Alan Adı Sistemi (DNS) ile kurduğunuz bağlantıyı korur.\n\nTurbo DNS, sonuçların manipüle edilememesi için şifreleme kullanır ve internete güvenle erişmenize yardımcı olur.</string>
   <string name="intro_details_headline">Son bir şey daha…</string>
-  <string name="intro_details_body">Intra\'nın DNS isteklerinizi korumasına izin vermek için Tamam\'a dokunun. Varsayılan olarak, istekleriniz Google Açık DNS\'e (<a href="https://developers.google.com/speed/public-dns/privacy">Gizlilik Politikası</a>) yönlendirilir. Uygulama ayarlarında başka bir hizmet seçebilirsiniz.</string>
+  <string name="intro_details_body">Turbo DNS\'nın DNS isteklerinizi korumasına izin vermek için Tamam\'a dokunun. Varsayılan olarak, istekleriniz Google Açık DNS\'e (<a href="https://developers.google.com/speed/public-dns/privacy">Gizlilik Politikası</a>) yönlendirilir. Uygulama ayarlarında başka bir hizmet seçebilirsiniz.</string>
   <string name="intro_back">geri</string>
   <string name="intro_next">sonraki</string>
   <string name="intro_accept">kabul et</string>
@@ -16,9 +16,7 @@
   <string name="privacy_link">Gizlilik Politikası</string>
   <string name="tos_link">Kullanım Şartları</string>
   <string name="source_code">Kaynak Kodu</string>
-  <string name="credits_text">Intra, <a href="https://jigsaw.google.com">Jigsaw</a> tarafından geliştirilmiştir. IP konumları,
-    DB-IP.com sitesinden alınan verilere dayanır.</string>
-  <string name="indicator_on">Açık</string>
+    <string name="indicator_on">Açık</string>
   <string name="indicator_off">Kapalı</string>
   <string name="status_exposed">Korumasız</string>
   <string name="explanation_exposed">Bağlantınız, DNS saldırılarına açık durumda.</string>
@@ -28,22 +26,22 @@
   <string name="explanation_upgraded">Bağlantınız şu anda Android Gizli DNS tarafından korunuyor, ancak bir saldırgan bu korumayı
     devre dışı bırakabilir veya zayıflatabilir.</string>
   <string name="status_strict">Android tarafından korunuyor</string>
-  <string name="explanation_strict">Intra, Android Gizli DNS ayarının etkin olduğunu algıladı. Bu, DNS sorgularınızın
-    zaten korunmakta olduğu anlamına geliyor. Dolayısıyla Intra\'nın etkinleştirilmesine gerek yok.</string>
+  <string name="explanation_strict">Turbo DNS, Android Gizli DNS ayarının etkin olduğunu algıladı. Bu, DNS sorgularınızın
+    zaten korunmakta olduğu anlamına geliyor. Dolayısıyla Turbo DNS\'nın etkinleştirilmesine gerek yok.</string>
   <string name="status_starting">Başlatılıyor…</string>
-  <string name="explanation_starting">Lütfen bekleyin. Intra, sunucu bağlantısı kuruyor.</string>
+  <string name="explanation_starting">Lütfen bekleyin. Turbo DNS, sunucu bağlantısı kuruyor.</string>
   <string name="status_waiting">Bekleniyor…</string>
   <string name="status_failing">Bağlantı başarısız</string>
-  <string name="explanation_offline">Cihazınız internete bağlı değil. Intra, ağ bağlantısı kurulmasını bekliyor.</string>
-  <string name="explanation_vpn">Intra, cihazınızda başka bir VPN algıladı. Intra\'yı etkinleştirirseniz söz konusu VPN devre dışı bırakılacak.
-    Intra, güvenilir bir VPN kadar güvenli değildir.</string>
-  <string name="explanation_failing">Uyarı: Sorgular başarısız oluyor. Farklı bir sunucu seçmeyi veya Intra\'yı yeniden başlatmayı deneyin.</string>
+  <string name="explanation_offline">Cihazınız internete bağlı değil. Turbo DNS, ağ bağlantısı kurulmasını bekliyor.</string>
+  <string name="explanation_vpn">Turbo DNS, cihazınızda başka bir VPN algıladı. Turbo DNS\'yı etkinleştirirseniz söz konusu VPN devre dışı bırakılacak.
+    Turbo DNS, güvenilir bir VPN kadar güvenli değildir.</string>
+  <string name="explanation_failing">Uyarı: Sorgular başarısız oluyor. Farklı bir sunucu seçmeyi veya Turbo DNS\'yı yeniden başlatmayı deneyin.</string>
   <string name="button_failing">Farklı bir sunucu dene</string>
   <string name="system_details">Sistem ayrıntıları</string>
   <string name="num_requests">Şimdiye kadar korunan sorguların sayısı</string>
   <string name="num_requests_headline">Cihazınız bir alan adı için IP adresi aradığında oluşan DNS sorgularının sayısı</string>
-  <string name="num_requests_body">Bu değer, Intra etkinken cihazınızın gerçekleştirdiği DNS sorgularının toplam sayısını gösterir.
-    Intra, özgün sonuçlar aldığınızdan emin olmak için, bu sorguları şifreler ve güvenilir bir
+  <string name="num_requests_body">Bu değer, Turbo DNS etkinken cihazınızın gerçekleştirdiği DNS sorgularının toplam sayısını gösterir.
+    Turbo DNS, özgün sonuçlar aldığınızdan emin olmak için, bu sorguları şifreler ve güvenilir bir
     sunucuya gönderir.</string>
   <string name="queries_per_minute">Yeni korunmaya başlayan sorguların sayısı</string>
   <string name="queries_per_minute_headline">Her bağlantının başında oluşan DNS sorgularının sayısı</string>
@@ -51,8 +49,8 @@
     Karmaşık yapıda bir web sayfasının yüklenmesi, yüzden fazla DNS sorgusu gerektirebilir.</string>
   <string name="transport_label">Şifreli aktarım</string>
   <string name="transport_headline">Şifreleme, sorgularınızı meraklı gözlerden korur</string>
-  <string name="transport_body">Intra\'yı kullandığınızda DNS sorgularınız şifrelenir. Böylece, yapmakta olduğunuz DNS sorgularını yalnızca siz ve
-    DNS sunucunuz görebilir. Intra, şifreleme için HTTPS üzerinden DNS protokolünü uygular.</string>
+  <string name="transport_body">Turbo DNS\'yı kullandığınızda DNS sorgularınız şifrelenir. Böylece, yapmakta olduğunuz DNS sorgularını yalnızca siz ve
+    DNS sunucunuz görebilir. Turbo DNS, şifreleme için HTTPS üzerinden DNS protokolünü uygular.</string>
   <string name="default_transport_label">Varsayılan taşıma</string>
   <string name="insecure_transport">şifrelenmemiş</string>
   <string name="insecure_transport_headline">Temel DNS şifresizdir</string>
@@ -65,12 +63,10 @@
     Ayarlar menüsünde farklı bir sunucuyla da değiştirebilirsiniz.</string>
   <string name="default_server_label">Geçerli DNS sunucusu</string>
   <string name="insecure_server_headline">Kendi DNS sunucunuzu seçebilirsiniz</string>
-  <string name="insecure_server_body">Intra devre dışı bırakıldığında çoğu cihaz, ağ operatörünüzün seçtiği DNS sunucusunu
-    kullanacak şekilde önceden yapılandırılır. Bu alanda, cihazınızın kullanmakta olduğu DNS sunucusunun IP adresi
-    gösterilir. Intra veya Android P ile, istediğiniz sunucuyu kolayca seçebilirsiniz.</string>
+  <string name="insecure_server_body">Turbo DNS devre dışı bırakıldığında çoğu cihaz, ağ operatörünüzün seçtiği DNS sunucusunu kullanacak şekilde önceden yapılandırılır. Bu alanda, cihazınızın kullanmakta olduğu DNS sunucusunun IP adresi gösterilir. Turbo DNS veya Android P ile, istediğiniz sunucuyu kolayca seçebilirsiniz.</string>
   <string name="strict_mode_server_headline">Güvenli bir sunucu seçtiniz</string>
   <string name="strict_mode_server_body">Bu alanda, Android\'deki Gizli DNS ayarında yapılandırdığınız DNS sunucusunun adı
-    gösterilir.  Intra devre dışı bırakıldığında, uygulamalarınız DNS sorgularını bu sunucuya göndermelidir.</string>
+    gösterilir.  Turbo DNS devre dışı bırakıldığında, uygulamalarınız DNS sorgularını bu sunucuya göndermelidir.</string>
   <string name="unknown_server">(bilinmeyen sunucu)</string>
   <string name="show_history">Son sorguları göster</string>
   <string name="query_label">Sorgu</string>
@@ -85,15 +81,15 @@
   <string name="server_choice_custom">Özel sunucu URL\'si</string>
   <string name="server_choice_warning">Özel sunucu, geçerli bir https:// URL\'si olmalıdır</string>
   <string name="excluded_apps">Hariç tutulan uygulamalar</string>
-  <string name="excluded_apps_summary">Seçili uygulamalardan gönderilen DNS sorguları Intra üzerinden iletilmez. Intra ile
+  <string name="excluded_apps_summary">Seçili uygulamalardan gönderilen DNS sorguları Turbo DNS üzerinden iletilmez. Turbo DNS ile
     uyumlu olmayan bir uygulama varsa buraya ekleyebilirsiniz.</string>
-  <string name="excluded_apps_title">Intra\'da hariç tutulacak uygulamaları işaretleyin</string>
+  <string name="excluded_apps_title">Turbo DNS\'da hariç tutulacak uygulamaları işaretleyin</string>
   <string name="old_android">Sahip olduğunuz Android sürümünde bu işlev kullanılamaz.</string>
   <string name="notification_title">DNS koruması etkin</string>
   <string name="notification_content">DNS koruması ayarını değiştirmek için dokunun</string>
   <string name="channel_name">DNS Koruması Etkin Bildirimi</string>
   <string name="channel_description">DNS koruması etkinken bu bildirim gösterilir.</string>
-  <string name="warning_title">Uyarı: Intra devre dışı bırakıldı</string>
+  <string name="warning_title">Uyarı: Turbo DNS devre dışı bırakıldı</string>
   <string name="warning_channel_name">Uyarı</string>
-  <string name="warning_channel_description">Intra\'da bir sorun olduğunda bu bildirim gösterilir.</string>
+  <string name="warning_channel_description">Turbo DNS\'da bir sorun olduğunda bu bildirim gösterilir.</string>
 </resources>

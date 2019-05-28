@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="txw2-2.2.111">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/org/glassfish/jaxb/txw2/2.2.11/txw2-2.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

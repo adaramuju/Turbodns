@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">더욱 자유로운 인터넷 액세스</string>
-  <string name="intro_benefit_body">Intra는 뉴스 사이트, 소셜 미디어 플랫폼, 메시지 앱에 액세스하지 못하게 차단하는 사이버 공격인 DNS 조작으로부터 사용자를 보호합니다.\n\n하지만 DNS 조작보다 복잡한 차단 기법 및 공격으로부터 보호해 주지는 못합니다.</string>
+  <string name="intro_benefit_body">Turbo DNS는 뉴스 사이트, 소셜 미디어 플랫폼, 메시지 앱에 액세스하지 못하게 차단하는 사이버 공격인 DNS 조작으로부터 사용자를 보호합니다.\n\n하지만 DNS 조작보다 복잡한 차단 기법 및 공격으로부터 보호해 주지는 못합니다.</string>
   <string name="intro_manipulation_headline">DNS 조작으로부터 보호</string>
-  <string name="intro_manipulation_body">Intra는 웹사이트를 방문하거나 앱을 여는 데 필요한 정확한 주소를 제공하는 DNS(도메인 이름 시스템)에 대한 연결을 보호해 줍니다.\n\n또한 결과가 조작되지 않도록 암호화를 활용하여 사용자가 인터넷에 안전하게 액세스하도록 도와줍니다.</string>
+  <string name="intro_manipulation_body">Turbo DNS는 웹사이트를 방문하거나 앱을 여는 데 필요한 정확한 주소를 제공하는 DNS(도메인 이름 시스템)에 대한 연결을 보호해 줍니다.\n\n또한 결과가 조작되지 않도록 암호화를 활용하여 사용자가 인터넷에 안전하게 액세스하도록 도와줍니다.</string>
   <string name="intro_details_headline">마지막으로 하나만 더 확인해 주세요</string>
-  <string name="intro_details_body">Intra가 DNS 요청을 보호하도록 허용하려면 확인을 탭하세요. DNS 요청은 기본적으로 Google Public DNS로 라우팅됩니다(<a href="https://developers.google.com/speed/public-dns/privacy">개인정보처리방침</a>). 앱 설정에서 다른 서비스를 선택할 수 있습니다.</string>
+  <string name="intro_details_body">Turbo DNS가 DNS 요청을 보호하도록 허용하려면 확인을 탭하세요. DNS 요청은 기본적으로 Google Public DNS로 라우팅됩니다(<a href="https://developers.google.com/speed/public-dns/privacy">개인정보처리방침</a>). 앱 설정에서 다른 서비스를 선택할 수 있습니다.</string>
   <string name="intro_back">뒤로</string>
   <string name="intro_next">다음</string>
   <string name="intro_accept">동의</string>
@@ -16,9 +16,7 @@
   <string name="privacy_link">개인정보처리방침</string>
   <string name="tos_link">이용 약관</string>
   <string name="source_code">소스 코드</string>
-  <string name="credits_text">Intra는 <a href="https://jigsaw.google.com">Jigsaw</a>에서 제작했습니다. IP 위치는
-    DB-IP.com의 데이터를 기반으로 합니다.</string>
-  <string name="indicator_on">켬</string>
+    <string name="indicator_on">켬</string>
   <string name="indicator_off">끔</string>
   <string name="status_exposed">노출됨</string>
   <string name="explanation_exposed">연결이 DNS 공격에 노출되어 있습니다.</string>
@@ -28,22 +26,22 @@
   <string name="explanation_upgraded">연결이 Android Private DNS에 의해 보호되고 있지만, 공격자는 이 보호를 중지하거나
     약화시킬 수 있습니다.</string>
   <string name="status_strict">Android에 의해 보호됨</string>
-  <string name="explanation_strict">Intra가 Android Private DNS 설정이 사용 설정되었음을 감지했습니다.  따라서,
-    DNS 쿼리가 이미 보호되고 있으므로 Intra를 사용 설정할 필요가 없습니다.</string>
+  <string name="explanation_strict">Turbo DNS가 Android Private DNS 설정이 사용 설정되었음을 감지했습니다.  따라서,
+    DNS 쿼리가 이미 보호되고 있으므로 Turbo DNS를 사용 설정할 필요가 없습니다.</string>
   <string name="status_starting">시작 중…</string>
-  <string name="explanation_starting">잠시만 기다려 주세요. Intra가 서버에 연결하는 중입니다.</string>
+  <string name="explanation_starting">잠시만 기다려 주세요. Turbo DNS가 서버에 연결하는 중입니다.</string>
   <string name="status_waiting">기다리는 중…</string>
   <string name="status_failing">연결 실패</string>
-  <string name="explanation_offline">기기가 오프라인 상태입니다. Intra가 네트워크 연결을 기다리는 중입니다.</string>
-  <string name="explanation_vpn">Intra가 기기에서 다른 VPN을 감지했습니다.  Intra를 사용 설정하면 해당 VPN은 사용 중지됩니다.
-    Intra는 신뢰할 수 있는 VPN만큼 안전하지 않습니다.</string>
-  <string name="explanation_failing">경고: 쿼리에 실패했습니다.  다른 서버를 선택하거나 Intra를 다시 시작할 수 있습니다.</string>
+  <string name="explanation_offline">기기가 오프라인 상태입니다. Turbo DNS가 네트워크 연결을 기다리는 중입니다.</string>
+  <string name="explanation_vpn">Turbo DNS가 기기에서 다른 VPN을 감지했습니다.  Turbo DNS를 사용 설정하면 해당 VPN은 사용 중지됩니다.
+    Turbo DNS는 신뢰할 수 있는 VPN만큼 안전하지 않습니다.</string>
+  <string name="explanation_failing">경고: 쿼리에 실패했습니다.  다른 서버를 선택하거나 Turbo DNS를 다시 시작할 수 있습니다.</string>
   <string name="button_failing">다른 서버 시도</string>
   <string name="system_details">시스템 세부정보</string>
   <string name="num_requests">지금까지 보호된 쿼리 수</string>
   <string name="num_requests_headline">DNS 쿼리는 기기에서 도메인 이름의 IP 주소를 조회할 때 생성됩니다.</string>
-  <string name="num_requests_body">이 값은 Intra가 활성화되었을 때 기기에서 실행된 총 DNS 쿼리 수를 나타냅니다.
-    Intra는 사용자가 조작되지 않은 결과를 얻을 수 있도록 이러한 쿼리를 암호화하여 신뢰할
+  <string name="num_requests_body">이 값은 Turbo DNS가 활성화되었을 때 기기에서 실행된 총 DNS 쿼리 수를 나타냅니다.
+    Turbo DNS는 사용자가 조작되지 않은 결과를 얻을 수 있도록 이러한 쿼리를 암호화하여 신뢰할
     수 있는 서버로 전송합니다.</string>
   <string name="queries_per_minute">최근 보호된 쿼리 수</string>
   <string name="queries_per_minute_headline">DNS 쿼리는 각 연결의 시작 부분에서 생성됩니다.</string>
@@ -51,8 +49,8 @@
     복잡한 웹페이지를 로드하는 데는 100회가 넘는 DNS 쿼리가 필요할 수도 있습니다.</string>
   <string name="transport_label">암호화된 전송</string>
   <string name="transport_headline">암호화를 통해 감시로부터 쿼리 보호</string>
-  <string name="transport_body">Intra를 사용하면 DNS 쿼리가 암호화되므로 사용자의 DNS
-    쿼리가 본인 및 DNS 서버에만 공개됩니다. Intra는 암호화를 위해 HTTPS를 통한 DNS 프로토콜을 구현합니다.</string>
+  <string name="transport_body">Turbo DNS를 사용하면 DNS 쿼리가 암호화되므로 사용자의 DNS
+    쿼리가 본인 및 DNS 서버에만 공개됩니다. Turbo DNS는 암호화를 위해 HTTPS를 통한 DNS 프로토콜을 구현합니다.</string>
   <string name="default_transport_label">기본 전송</string>
   <string name="insecure_transport">암호화되지 않음</string>
   <string name="insecure_transport_headline">기본 DNS는 암호화되지 않습니다.</string>
@@ -65,12 +63,10 @@
     서버를 변경할 수도 있습니다.</string>
   <string name="default_server_label">현재 DNS 서버</string>
   <string name="insecure_server_headline">나의 DNS 서버를 선택할 수 있습니다.</string>
-  <string name="insecure_server_body">대부분의 기기는 Intra가 사용 중지되는 경우 네트워크 제공업체에서 선택한 DNS 서버를 사용하도록
-    사전에 구성되어 있습니다. 이 입력란에는 기기에서 현재 사용 중인 DNS 서버의 IP 주소가
-    표시됩니다. Intra 또는 Android P를 사용하면 원하는 서버를 간편하게 선택할 수 있습니다.</string>
+  <string name="insecure_server_body">대부분의 기기는 Turbo DNS가 사용 중지되는 경우 네트워크 제공업체에서 선택한 DNS 서버를 사용하도록 사전에 구성되어 있습니다. 이 입력란에는 기기에서 현재 사용 중인 DNS 서버의 IP 주소가 표시됩니다. Turbo DNS 또는 Android P를 사용하면 원하는 서버를 간편하게 선택할 수 있습니다.</string>
   <string name="strict_mode_server_headline">안전한 서버를 선택했습니다.</string>
   <string name="strict_mode_server_body">이 입력란에는 Android 비공개 DNS 설정에서 구성한 DNS 서버의 이름이
-    표시됩니다.  Intra가 사용 중지되면 앱에서 DNS 쿼리를 이 서버로 전송합니다.</string>
+    표시됩니다.  Turbo DNS가 사용 중지되면 앱에서 DNS 쿼리를 이 서버로 전송합니다.</string>
   <string name="unknown_server">(알 수 없는 서버)</string>
   <string name="show_history">최근 쿼리 보기</string>
   <string name="query_label">쿼리</string>
@@ -85,15 +81,15 @@
   <string name="server_choice_custom">맞춤 서버 URL</string>
   <string name="server_choice_warning">맞춤 서버는 유효한 https:// URL이어야 합니다.</string>
   <string name="excluded_apps">제외된 앱</string>
-  <string name="excluded_apps_summary">선택된 앱의 DNS 쿼리는 Intra를 통해 전송되지 않습니다.  Intra와 호환되지 않는 앱이
+  <string name="excluded_apps_summary">선택된 앱의 DNS 쿼리는 Turbo DNS를 통해 전송되지 않습니다.  Turbo DNS와 호환되지 않는 앱이
     있으면 여기에 추가할 수 있습니다.</string>
-  <string name="excluded_apps_title">Intra에서 제외할 앱 설정</string>
+  <string name="excluded_apps_title">Turbo DNS에서 제외할 앱 설정</string>
   <string name="old_android">사용 중인 Android 버전에서는 이 기능을 사용할 수 없습니다.</string>
   <string name="notification_title">DNS 보호가 활성화됨</string>
   <string name="notification_content">DNS 보호 설정을 변경하려면 탭하세요.</string>
   <string name="channel_name">DNS 보호 활성화 알림</string>
   <string name="channel_description">DNS 보호가 활성화되어 있는 동안 이 알림이 표시됩니다.</string>
-  <string name="warning_title">경고: Intra가 비활성화됨</string>
+  <string name="warning_title">경고: Turbo DNS가 비활성화됨</string>
   <string name="warning_channel_name">경고</string>
-  <string name="warning_channel_description">Intra에 문제가 발생했을 때 표시됩니다.</string>
+  <string name="warning_channel_description">Turbo DNS에 문제가 발생했을 때 표시됩니다.</string>
 </resources>

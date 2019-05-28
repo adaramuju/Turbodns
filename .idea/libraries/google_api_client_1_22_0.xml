@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-api-client-1.22.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/firebase-repo/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

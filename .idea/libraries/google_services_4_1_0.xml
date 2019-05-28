@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-services-4.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/firebase-repo/com/google/gms/google-services/4.1.0/google-services-4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

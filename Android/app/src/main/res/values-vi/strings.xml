@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">Khả năng truy cập rộng rãi vào Internet</string>
-  <string name="intro_benefit_body">Intra bảo vệ bạn khỏi thao túng DNS (DNS manipulation), một phương thức tấn công mạng dùng để chặn quyền truy cập vào các trang web tin tức, nền tảng mạng xã hội và ứng dụng nhắn tin.\n\nDù Intra bảo vệ bạn khỏi thao túng DNS, nhưng có những kỹ thuật chặn và tấn công phức tạp hơn mà Intra không thể bảo vệ bạn.</string>
+  <string name="intro_benefit_body">Turbo DNS bảo vệ bạn khỏi thao túng DNS (DNS manipulation), một phương thức tấn công mạng dùng để chặn quyền truy cập vào các trang web tin tức, nền tảng mạng xã hội và ứng dụng nhắn tin.\n\nDù Turbo DNS bảo vệ bạn khỏi thao túng DNS, nhưng có những kỹ thuật chặn và tấn công phức tạp hơn mà Turbo DNS không thể bảo vệ bạn.</string>
   <string name="intro_manipulation_headline">Bảo vệ khỏi thao túng DNS</string>
-  <string name="intro_manipulation_body">Intra bảo vệ kết nối của bạn đến Hệ thống tên miền (DNS), hệ thống này cung cấp địa chỉ chính xác mà bạn cần để truy cập vào một trang web hoặc mở một ứng dụng.\n\nIntra sử dụng tính năng mã hóa để đảm bảo không thể thay đổi được kết quả, giúp bạn truy cập vào Internet một cách an toàn.</string>
+  <string name="intro_manipulation_body">Turbo DNS bảo vệ kết nối của bạn đến Hệ thống tên miền (DNS), hệ thống này cung cấp địa chỉ chính xác mà bạn cần để truy cập vào một trang web hoặc mở một ứng dụng.\n\nTurbo DNS sử dụng tính năng mã hóa để đảm bảo không thể thay đổi được kết quả, giúp bạn truy cập vào Internet một cách an toàn.</string>
   <string name="intro_details_headline">Một điều nữa…</string>
-  <string name="intro_details_body">Nhấn vào Ok để cho phép Intra bảo vệ các yêu cầu DNS của bạn. Theo mặc định, các yêu cầu này sẽ được định tuyến đến DNS Google Public (<a href="https://developers.google.com/speed/public-dns/privacy">Chính sách quyền riêng tư</a>). Bạn có thể chọn một dịch vụ khác trong mục cài đặt ứng dụng.</string>
+  <string name="intro_details_body">Nhấn vào Ok để cho phép Turbo DNS bảo vệ các yêu cầu DNS của bạn. Theo mặc định, các yêu cầu này sẽ được định tuyến đến DNS Google Public (<a href="https://developers.google.com/speed/public-dns/privacy">Chính sách quyền riêng tư</a>). Bạn có thể chọn một dịch vụ khác trong mục cài đặt ứng dụng.</string>
   <string name="intro_back">quay lại</string>
   <string name="intro_next">tiếp theo</string>
   <string name="intro_accept">chấp nhận</string>
@@ -16,9 +16,7 @@
   <string name="privacy_link">Chính sách quyền riêng tư</string>
   <string name="tos_link">Điều khoản dịch vụ</string>
   <string name="source_code">Mã nguồn</string>
-  <string name="credits_text">Intra do <a href="https://jigsaw.google.com">Jigsaw</a> thiết kế. Các vị trí thông qua IP dựa trên dữ liệu
-    từ DB-IP.com.</string>
-  <string name="indicator_on">Bật</string>
+    <string name="indicator_on">Bật</string>
   <string name="indicator_off">Tắt</string>
   <string name="status_exposed">Không được bảo vệ</string>
   <string name="explanation_exposed">Kết nối của bạn không được bảo vệ khỏi các cuộc tấn công DNS.</string>
@@ -28,22 +26,22 @@
   <string name="explanation_upgraded">Kết nối của bạn hiện đang được DNS riêng tư của Android bảo vệ, tuy nhiên, kẻ tấn công có thể vô hiệu hóa
     hoặc phá hoại lớp bảo vệ này.</string>
   <string name="status_strict">Được Android bảo vệ</string>
-  <string name="explanation_strict">Intra đã phát hiện thấy tùy chọn cài đặt DNS riêng tư của Android đang bật. Điều này có nghĩa là truy vấn
-    DNS của bạn đã được bảo vệ nên không nhất thiết phải bật Intra.</string>
+  <string name="explanation_strict">Turbo DNS đã phát hiện thấy tùy chọn cài đặt DNS riêng tư của Android đang bật. Điều này có nghĩa là truy vấn
+    DNS của bạn đã được bảo vệ nên không nhất thiết phải bật Turbo DNS.</string>
   <string name="status_starting">Đang khởi động…</string>
-  <string name="explanation_starting">Vui lòng chờ. Intra đang thiết lập kết nối đến máy chủ.</string>
+  <string name="explanation_starting">Vui lòng chờ. Turbo DNS đang thiết lập kết nối đến máy chủ.</string>
   <string name="status_waiting">Đang chờ…</string>
   <string name="status_failing">Không thành công</string>
-  <string name="explanation_offline">Thiết bị hiện không có kết nối mạng. Intra đang chờ kết nối mạng.</string>
-  <string name="explanation_vpn">Intra đã phát hiện thấy một VPN khác trên thiết bị. Nếu bạn bật Intra, thì VPN đó sẽ tắt.
-    Intra không bảo mật bằng một VPN đáng tin cậy.</string>
-  <string name="explanation_failing">Cảnh báo: Truy vấn không thành công. Có thể bạn muốn chọn một máy chủ khác hoặc khởi động lại Intra.</string>
+  <string name="explanation_offline">Thiết bị hiện không có kết nối mạng. Turbo DNS đang chờ kết nối mạng.</string>
+  <string name="explanation_vpn">Turbo DNS đã phát hiện thấy một VPN khác trên thiết bị. Nếu bạn bật Turbo DNS, thì VPN đó sẽ tắt.
+    Turbo DNS không bảo mật bằng một VPN đáng tin cậy.</string>
+  <string name="explanation_failing">Cảnh báo: Truy vấn không thành công. Có thể bạn muốn chọn một máy chủ khác hoặc khởi động lại Turbo DNS.</string>
   <string name="button_failing">Hãy thử một máy chủ khác</string>
   <string name="system_details">Chi tiết hệ thống</string>
   <string name="num_requests">Số lượng truy vấn được bảo vệ cho tới giờ</string>
   <string name="num_requests_headline">Truy vấn DNS xảy ra khi thiết bị của bạn tra cứu địa chỉ IP cho một tên miền</string>
-  <string name="num_requests_body">Giá trị này hiển thị tổng số truy vấn DNS mà thiết bị của bạn đã thực hiện trong khi Intra
-    đang hoạt động. Intra mã hóa và gửi các truy vấn này đến một máy chủ đáng tin cậy để đảm bảo bạn sẽ
+  <string name="num_requests_body">Giá trị này hiển thị tổng số truy vấn DNS mà thiết bị của bạn đã thực hiện trong khi Turbo DNS
+    đang hoạt động. Turbo DNS mã hóa và gửi các truy vấn này đến một máy chủ đáng tin cậy để đảm bảo bạn sẽ
     nhận được kết quả xác thực.</string>
   <string name="queries_per_minute">Số lượng truy vấn gần đây</string>
   <string name="queries_per_minute_headline">Truy vấn DNS xảy ra ở đầu mỗi kết nối</string>
@@ -51,8 +49,8 @@
     Việc tải một trang web phức tạp có thể yêu cầu phải thực hiện hơn một trăm truy vấn DNS.</string>
   <string name="transport_label">Đường truyền mã hóa</string>
   <string name="transport_headline">Tính năng mã hóa bảo vệ các truy vấn của bạn khỏi các cặp mắt tò mò</string>
-  <string name="transport_body">Khi bạn sử dụng Intra, các truy vấn DNS của bạn được mã hóa, do đó, chỉ bạn và máy chủ DNS của bạn mới có thể xem
-    các truy vấn DNS mà bạn đang thực hiện. Intra triển khai DNS qua giao thức HTTPS để mã hóa.</string>
+  <string name="transport_body">Khi bạn sử dụng Turbo DNS, các truy vấn DNS của bạn được mã hóa, do đó, chỉ bạn và máy chủ DNS của bạn mới có thể xem
+    các truy vấn DNS mà bạn đang thực hiện. Turbo DNS triển khai DNS qua giao thức HTTPS để mã hóa.</string>
   <string name="default_transport_label">Truyền tải mặc định</string>
   <string name="insecure_transport">không được mã hóa</string>
   <string name="insecure_transport_headline">DNS cơ bản không được mã hóa</string>
@@ -65,12 +63,10 @@
     máy chủ khác trong menu Cài đặt.</string>
   <string name="default_server_label">Máy chủ DNS hiện tại</string>
   <string name="insecure_server_headline">Bạn có thể tự chọn máy chủ DNS của mình</string>
-  <string name="insecure_server_body">Khi tắt Intra, hầu hết các thiết bị được cấu hình sẵn là dùng máy chủ DNS mà nhà mạng của bạn
-    chọn lựa. Trường này hiển thị địa chỉ IP của máy chủ DNS mà thiết bị của bạn hiện đang
-    sử dụng. Với Intra hoặc Android P, bạn có thể dễ dàng lựa chọn máy chủ theo ý mình.</string>
+  <string name="insecure_server_body">Khi tắt Turbo DNS, hầu hết các thiết bị được cấu hình sẵn là dùng máy chủ DNS mà nhà mạng của bạn chọn lựa. Trường này hiển thị địa chỉ IP của máy chủ DNS mà thiết bị của bạn hiện đang sử dụng. Với Turbo DNS hoặc Android P, bạn có thể dễ dàng lựa chọn máy chủ theo ý mình.</string>
   <string name="strict_mode_server_headline">Bạn đã chọn một máy chủ bảo mật</string>
   <string name="strict_mode_server_body">Trường này hiển thị tên của máy chủ DNS bạn đã cấu hình trong mục cài đặt DNS riêng của
-    Android.  Khi bạn tắt Intra, ứng dụng của bạn sẽ gửi truy vấn DNS đến máy chủ này.</string>
+    Android.  Khi bạn tắt Turbo DNS, ứng dụng của bạn sẽ gửi truy vấn DNS đến máy chủ này.</string>
   <string name="unknown_server">(máy chủ không xác định)</string>
   <string name="show_history">Hiển thị các truy vấn gần đây</string>
   <string name="query_label">Truy vấn</string>
@@ -84,16 +80,16 @@
   <string name="server_choice_website_notice">Vui lòng truy cập vào <a href="https://www.example.com/">trang web của các đơn vị này</a> để xem lại chính sách quyền riêng tư của họ và các điều khoản dịch vụ hiện hành.</string>
   <string name="server_choice_custom">URL máy chủ tùy chỉnh</string>
   <string name="server_choice_warning">Máy chủ tùy chỉnh phải là một URL https:// hợp lệ</string>
-  <string name="excluded_apps">Các ứng dụng không dùng Intra</string>
-  <string name="excluded_apps_summary">Truy vấn DNS từ bất kỳ ứng dụng đã chọn nào sẽ không đi qua Intra. Nếu một ứng dụng có vẻ
-    không tương thích với Intra, thì bạn có thể thêm ứng dụng đó tại đây.</string>
-  <string name="excluded_apps_title">Đánh dấu các ứng dụng không dùng Intra</string>
+  <string name="excluded_apps">Các ứng dụng không dùng Turbo DNS</string>
+  <string name="excluded_apps_summary">Truy vấn DNS từ bất kỳ ứng dụng đã chọn nào sẽ không đi qua Turbo DNS. Nếu một ứng dụng có vẻ
+    không tương thích với Turbo DNS, thì bạn có thể thêm ứng dụng đó tại đây.</string>
+  <string name="excluded_apps_title">Đánh dấu các ứng dụng không dùng Turbo DNS</string>
   <string name="old_android">Chức năng này không có sẵn trên phiên bản Android của bạn.</string>
   <string name="notification_title">Tính năng bảo vệ DNS đang hoạt động</string>
   <string name="notification_content">Nhấn để thay đổi tùy chọn cài đặt bảo vệ DNS</string>
   <string name="channel_name">Thông báo tính năng bảo vệ DNS đang hoạt động</string>
   <string name="channel_description">Thông báo này xuất hiện khi tính năng bảo vệ DNS đang hoạt động.</string>
-  <string name="warning_title">Cảnh báo: Intra đã bị vô hiệu hóa</string>
+  <string name="warning_title">Cảnh báo: Turbo DNS đã bị vô hiệu hóa</string>
   <string name="warning_channel_name">Cảnh báo</string>
-  <string name="warning_channel_description">Hiển thị khi Intra gặp sự cố.</string>
+  <string name="warning_channel_description">Hiển thị khi Turbo DNS gặp sự cố.</string>
 </resources>

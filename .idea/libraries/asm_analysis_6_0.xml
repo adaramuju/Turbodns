@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="asm-analysis-6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/gradle-plugin-repo/org/ow2/asm/asm-analysis/6.0/asm-analysis-6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

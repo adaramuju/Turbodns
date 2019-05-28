@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">اتصال أكثر أمانًا بالإنترنت</string>
-  <string name="intro_benefit_body">تحمي أداة Intra اتصالك من التلاعب بنظام أسماء النطاقات، وفيه تُستخدَم هجمة إلكترونية لحظر الوصول إلى مواقع الأخبار ومنصَّات وسائل التواصل الاجتماعي وتطبيقات المُراسلة.\n\nوعلى الرغم من قدرة Intra على حمايتك من التلاعب بنظام أسماء النطاقات، توجد أساليب وهَجَمات أكثر تعقيدًا للحظر لا تستطيع Intra حماية اتصالك منها.</string>
+  <string name="intro_benefit_body">تحمي أداة Turbo DNS اتصالك من التلاعب بنظام أسماء النطاقات، وفيه تُستخدَم هجمة إلكترونية لحظر الوصول إلى مواقع الأخبار ومنصَّات وسائل التواصل الاجتماعي وتطبيقات المُراسلة.\n\nوعلى الرغم من قدرة Turbo DNS على حمايتك من التلاعب بنظام أسماء النطاقات، توجد أساليب وهَجَمات أكثر تعقيدًا للحظر لا تستطيع Turbo DNS حماية اتصالك منها.</string>
   <string name="intro_manipulation_headline">الحماية من التلاعب بنظام أسماء النطاقات</string>
-  <string name="intro_manipulation_body">تحمي Intra اتصالك بنظام أسماء النطاقات (DNS) الذي يمنحك العناوين الدقيقة التي تحتاج إليها لزيارة موقع إلكتروني محدَّد أو فتح أحد التطبيقات.\n\nتستخدم هذه الأداة ميزة التشفير لضمان عدم التلاعب بالنتائج، مما يساعدك على الاتصال بالإنترنت بأمان.</string>
+  <string name="intro_manipulation_body">تحمي Turbo DNS اتصالك بنظام أسماء النطاقات (DNS) الذي يمنحك العناوين الدقيقة التي تحتاج إليها لزيارة موقع إلكتروني محدَّد أو فتح أحد التطبيقات.\n\nتستخدم هذه الأداة ميزة التشفير لضمان عدم التلاعب بالنتائج، مما يساعدك على الاتصال بالإنترنت بأمان.</string>
   <string name="intro_details_headline">هناك شيء أخير…</string>
-  <string name="intro_details_body">انقر على \"موافق\" للسماح لأداة Intra بحماية طلبات بحث نظام أسماء النطاقات لديك. سيتم توجيه هذه الطلبات تلقائيًا إلى \"نظام أسماء النطاقات العام من Google\" (<a href="https://developers.google.com/speed/public-dns/privacy">سياسة الخصوصية</a>). ويمكنك اختيار خدمة أخرى من إعدادات التطبيق.</string>
+  <string name="intro_details_body">انقر على \"موافق\" للسماح لأداة Turbo DNS بحماية طلبات بحث نظام أسماء النطاقات لديك. سيتم توجيه هذه الطلبات تلقائيًا إلى \"نظام أسماء النطاقات العام من Google\" (<a href="https://developers.google.com/speed/public-dns/privacy">سياسة الخصوصية</a>). ويمكنك اختيار خدمة أخرى من إعدادات التطبيق.</string>
   <string name="intro_back">السابق</string>
   <string name="intro_next">التالي</string>
   <string name="intro_accept">قبول</string>
@@ -16,10 +16,7 @@
   <string name="privacy_link">سياسة الخصوصية</string>
   <string name="tos_link">بنود الخدمة</string>
   <string name="source_code">رمز المصدر</string>
-  <string name="credits_text">أنشأت <a href="https://jigsaw.google.com">Jigsaw</a> أداة Intra. وتستند مواقع IP إلى البيانات المأخوذة
-
-    من DB-IP.com.</string>
-  <string name="indicator_on">مُفعَّل</string>
+    <string name="indicator_on">مُفعَّل</string>
   <string name="indicator_off">غير مُفعَّل</string>
   <string name="status_exposed">مُعرَّض للهجمات</string>
   <string name="explanation_exposed">اتصالك مُعرَّض لهجمات نظام أسماء النطاقات.</string>
@@ -29,27 +26,27 @@
   <string name="explanation_upgraded">يخضع اتصالك حاليًا لحماية نظام أسماء النطاقات الخاصة في نظام تشغيل Android، ولكن يستطيع المهاجمون إيقاف
     هذه الحماية أو إضعافها.</string>
   <string name="status_strict">خاضِع لحماية Android</string>
-  <string name="explanation_strict">رصدت أداة Intra تفعيل إعداد نظام أسماء النطاقات الخاصة في نظام تشغيل Android. وهذا يعني أن طلبات البحث
-    لنظام أسماء النطاقات مَحمية من قبل، وبالتالي لا داعي لتفعيل Intra.</string>
+  <string name="explanation_strict">رصدت أداة Turbo DNS تفعيل إعداد نظام أسماء النطاقات الخاصة في نظام تشغيل Android. وهذا يعني أن طلبات البحث
+    لنظام أسماء النطاقات مَحمية من قبل، وبالتالي لا داعي لتفعيل Turbo DNS.</string>
   <string name="status_starting">جارٍ البدء…</string>
-  <string name="explanation_starting">يُرجى الانتظار، يتم الآن إنشاء اتصال بالخادم من خلال أداة Intra.</string>
+  <string name="explanation_starting">يُرجى الانتظار، يتم الآن إنشاء اتصال بالخادم من خلال أداة Turbo DNS.</string>
   <string name="status_waiting">جارٍ الانتظار…</string>
   <string name="status_failing">يتعذّر الاتصال</string>
-  <string name="explanation_offline">جهازك غير متصّل بالإنترنت، وIntra في انتظار الاتصال بالشبكة.</string>
-  <string name="explanation_vpn">لقد رصدت أداة Intra شبكة ظاهرية خاصة أخرى على جهازك. وفي حال تفعيل Intra، سيتم إيقاف تلك الشبكة.
-    لا تتمتع أداة Intra بنفس مستوى الأمان الذي تتمتع به شبكة ظاهرية خاصة موثوقة.</string>
-  <string name="explanation_failing">تحذير: يتعذّر إجراء طلبات البحث. يمكنك اختيار خادم مختلف أو إعادة تشغيل Intra.</string>
+  <string name="explanation_offline">جهازك غير متصّل بالإنترنت، وTurbo DNS في انتظار الاتصال بالشبكة.</string>
+  <string name="explanation_vpn">لقد رصدت أداة Turbo DNS شبكة ظاهرية خاصة أخرى على جهازك. وفي حال تفعيل Turbo DNS، سيتم إيقاف تلك الشبكة.
+    لا تتمتع أداة Turbo DNS بنفس مستوى الأمان الذي تتمتع به شبكة ظاهرية خاصة موثوقة.</string>
+  <string name="explanation_failing">تحذير: يتعذّر إجراء طلبات البحث. يمكنك اختيار خادم مختلف أو إعادة تشغيل Turbo DNS.</string>
   <string name="button_failing">تجربة خادم مختلف</string>
   <string name="system_details">تفاصيل النظام</string>
   <string name="num_requests">الطلبات حتى الآن</string>
   <string name="num_requests_headline">يتم تنفيذ طلبات بحث نظام أسماء النطاقات عند بحث جهازك عن عنوان IP لاسم أحد النطاقات</string>
-  <string name="num_requests_body">تعرِض هذه القيمة إجمالي عدد طلبات بحث نظام أسماء النطاقات التي نفَّذها جهازك أثناء نشاط أداة Intra. وتعمل الأداة على تشفير طلبات البحث المعنية وإرسالها إلى خادِم موثوق به للتأكُّد من حصولك على نتائج حقيقية.</string>
+  <string name="num_requests_body">تعرِض هذه القيمة إجمالي عدد طلبات بحث نظام أسماء النطاقات التي نفَّذها جهازك أثناء نشاط أداة Turbo DNS. وتعمل الأداة على تشفير طلبات البحث المعنية وإرسالها إلى خادِم موثوق به للتأكُّد من حصولك على نتائج حقيقية.</string>
   <string name="queries_per_minute">الطلبات الحديثة</string>
   <string name="queries_per_minute_headline">تنفيذ طلبات بحث نظام أسماء النطاقات في بداية كل اتصال</string>
   <string name="queries_per_minute_body">تعرِض هذه القيمة عدد طلبات بحث نظام أسماء النطاقات التي نفَّذها جهازك في الدقيقة الأخيرة. قد يتطلّب تحميل صفحة ويب معقّدة أكثر من مئة طلب بحث لنظام أسماء النطاقات.</string>
   <string name="transport_label">النقل المشفر</string>
   <string name="transport_headline">التشفير يحمي طلبات بحثك من المتطفّلين</string>
-  <string name="transport_body">عندما تستخدم Intra، يتم تشفير طلبات بحث نظام أسماء النطاقات، بحيث تتمكّن أنت وخادِم نظام أسماء النطاقات فقط من الاطلّاع على طلبات بحث نظام أسماء النطاقات التي تنفِّذها. وتنفِّذ Intra هذه الطلبات عبر بروتوكول HTTPS لتشفيرها.</string>
+  <string name="transport_body">عندما تستخدم Turbo DNS، يتم تشفير طلبات بحث نظام أسماء النطاقات، بحيث تتمكّن أنت وخادِم نظام أسماء النطاقات فقط من الاطلّاع على طلبات بحث نظام أسماء النطاقات التي تنفِّذها. وتنفِّذ Turbo DNS هذه الطلبات عبر بروتوكول HTTPS لتشفيرها.</string>
   <string name="default_transport_label">بروتوكول النقل التلقائي</string>
   <string name="insecure_transport">غير مُشفَّر</string>
   <string name="insecure_transport_headline">نظام أسماء النطاقات الأساسي غير مُشفَّر</string>
@@ -59,12 +56,10 @@
   <string name="server_body">يعرض هذا الحقل اسم الخادِم الآمن لنظام أسماء النطاقات الذي تستخدمه. يمكنك أيضًا التغيير إلى خادِم مختلف في قائمة \"الإعدادات\".</string>
   <string name="default_server_label">خادم نظام أسماء النطاقات الحالي</string>
   <string name="insecure_server_headline">يمكنك اختيار خادم نظام أسماء النطاقات الذي تريد استخدامه</string>
-  <string name="insecure_server_body">عند إيقاف Intra، يتم إجراء ضبط مسبق لمعظم الأجهزة لكي تستخدم خادم نظام أسماء النطاقات الذي اختاره
-    مشغِّل الشبكة. يعرض هذا الحقل عنوان IP لخادم نظام أسماء النطاقات الذي يستخدمه جهازك
-    حاليًا. باستخدام Intra أو Android P، يمكنك بسهولة اختيار الخادم الذي تريده.</string>
+  <string name="insecure_server_body">عند إيقاف  Turbo DNS، يتم إجراء ضبط مسبق لمعظم الأجهزة لكي تستخدم خادم نظام أسماء النطاقات الذي اختاره مشغِّل الشبكة. يعرض هذا الحقل عنوان IP لخادم نظام أسماء النطاقات الذي يستخدمه جهازك حاليًا. باستخدام Turbo DNS أو Android P، يمكنك بسهولة اختيار الخادم الذي تريده.</string>
   <string name="strict_mode_server_headline">لقد اخترت خادمًا آمنًا</string>
   <string name="strict_mode_server_body">يعرض هذا الحقل اسم خادم نظام أسماء النطاقات الذي ضبطته في إعداد نظام أسماء النطاقات الخاص على نظام
-    التشغيل Android.  عند إيقاف أداة Intra، سترسل تطبيقاتك طلبات بحث نظام أسماء النطاقات إلى هذا الخادم.</string>
+    التشغيل Android.  عند إيقاف أداة Turbo DNS، سترسل تطبيقاتك طلبات بحث نظام أسماء النطاقات إلى هذا الخادم.</string>
   <string name="unknown_server">(خادم غير معروف)</string>
   <string name="show_history">إظهار الطلبات الحديثة</string>
   <string name="query_label">الطلب</string>
@@ -79,15 +74,15 @@
   <string name="server_choice_custom">عنوان URL لخادم مخصّص</string>
   <string name="server_choice_warning">يجب أن يكون الخادم المخصّص عنوان URL صالحًا يبدأ بالصيغة https://‎</string>
   <string name="excluded_apps">التطبيقات المُستبعَدة</string>
-  <string name="excluded_apps_summary">لن يتم توجيه طلبات بحث لنظام أسماء النطاقات من أي تطبيقات محددة عبر Intra. إذا بدا أن أحد التطبيقات
-    غير متوافق مع Intra، يمكنك إضافته هنا.</string>
-  <string name="excluded_apps_title">تمييز التطبيقات المطلوب استبعادها من Intra</string>
+  <string name="excluded_apps_summary">لن يتم توجيه طلبات بحث لنظام أسماء النطاقات من أي تطبيقات محددة عبر Turbo DNS. إذا بدا أن أحد التطبيقات
+    غير متوافق مع Turbo DNS، يمكنك إضافته هنا.</string>
+  <string name="excluded_apps_title">تمييز التطبيقات المطلوب استبعادها من Turbo DNS</string>
   <string name="old_android">هذه الوظيفة غير متوفّرة على إصدار نظام تشغيل Android عندك.</string>
   <string name="notification_title">إعداد حماية نظام أسماء النطاقات نشط</string>
   <string name="notification_content">انقر لتغيير إعداد حماية نظام أسماء النطاقات</string>
   <string name="channel_name">إشعار الحماية النشطة لنظام أسماء النطاقات</string>
   <string name="channel_description">يظهر هذا الإشعار عندما يكون إعداد حماية نظام أسماء النطاقات نشطًا.</string>
-  <string name="warning_title">تحذير: تم إلغاء تنشيط Intra</string>
+  <string name="warning_title">تحذير: تم إلغاء تنشيط Turbo DNS</string>
   <string name="warning_channel_name">تحذير</string>
-  <string name="warning_channel_description">يظهر هذا الإشعار عندما يصادف Intra مشكلة ما.</string>
+  <string name="warning_channel_description">يظهر هذا الإشعار عندما يصادف Turbo DNS مشكلة ما.</string>
 </resources>

@@ -1,5 +1,5 @@
 allprojects {
-    // The app and tests do not depend on any non-Google servers (e.g. jcenter, mavenCentral).
+    // The net and tests do not depend on any non-Google servers (e.g. jcenter, mavenCentral).
     repositories {
         google()
     }

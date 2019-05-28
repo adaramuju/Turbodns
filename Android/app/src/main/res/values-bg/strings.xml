@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="intro_benefit_headline">По-свободен достъп до интернет</string>
-  <string name="intro_benefit_body">Intra ви защитава от манипулиране на DNS – кибератака, чрез която се блокира достъпът до новинарски сайтове, платформи на социални медии и приложения за съобщения.\n\nМакар че Intra ви защитава от манипулиране на DNS, съществуват по-сложни атаки и техники за блокиране, от които не ви предпазва.</string>
+  <string name="intro_benefit_body">Turbo DNS ви защитава от манипулиране на DNS – кибератака, чрез която се блокира достъпът до новинарски сайтове, платформи на социални медии и приложения за съобщения.\n\nМакар че Turbo DNS ви защитава от манипулиране на DNS, съществуват по-сложни атаки и техники за блокиране, от които не ви предпазва.</string>
   <string name="intro_manipulation_headline">Защита от манипулиране на DNS</string>
-  <string name="intro_manipulation_body">Intra защитава връзката ви до Системата за имена на домейни (DNS), която осигурява адресите, необходими за посещение на уебсайт или отваряне на приложение.\n\nIntra използва шифроване, за да предпази резултатите от манипулиране, и така подпомага безопасния ви достъп до интернет.</string>
+  <string name="intro_manipulation_body">Turbo DNS защитава връзката ви до Системата за имена на домейни (DNS), която осигурява адресите, необходими за посещение на уебсайт или отваряне на приложение.\n\nTurbo DNS използва шифроване, за да предпази резултатите от манипулиране, и така подпомага безопасния ви достъп до интернет.</string>
   <string name="intro_details_headline">И накрая…</string>
-  <string name="intro_details_body">Докоснете „OK“, за да позволите на Intra да защитава DNS заявките ви. По подразбиране те ще бъдат насочвани към публичния DNS сървър на Google (<a href="https://developers.google.com/speed/public-dns/privacy">Декларация за поверителност</a>). Можете да изберете друга услуга в настройките на приложението.</string>
+  <string name="intro_details_body">Докоснете „OK“, за да позволите на Turbo DNS да защитава DNS заявките ви. По подразбиране те ще бъдат насочвани към публичния DNS сървър на Google (<a href="https://developers.google.com/speed/public-dns/privacy">Декларация за поверителност</a>). Можете да изберете друга услуга в настройките на приложението.</string>
   <string name="intro_back">назад</string>
   <string name="intro_next">напред</string>
   <string name="intro_accept">приемам</string>
@@ -16,8 +16,7 @@
   <string name="privacy_link">Декларация за поверителност</string>
   <string name="tos_link">Общи условия</string>
   <string name="source_code">Изходен код</string>
-  <string name="credits_text">Intra е дело на <a href="https://jigsaw.google.com">Jigsaw</a>. Местоположенията за IP адресите се базират на данни от DB-IP.com.</string>
-  <string name="indicator_on">Включено</string>
+    <string name="indicator_on">Включено</string>
   <string name="indicator_off">Изключено</string>
   <string name="status_exposed">Изложена на опасност връзка</string>
   <string name="explanation_exposed">Връзката ви е изложена на опасност от атаки срещу DNS.</string>
@@ -26,27 +25,27 @@
   <string name="status_upgraded">Уязвима връзка</string>
   <string name="explanation_upgraded">Понастоящем връзката ви е защитена от настройката „Частен DNS“ в Android, но атакуващ може да деактивира или компрометира тази защита.</string>
   <string name="status_strict">Защитено от Android</string>
-  <string name="explanation_strict">Intra установи, че връзката „Частен DNS“ в Android е активирана.  Това значи, че DNS заявките ви вече са защитени, така че няма нужда да активирате Intra.</string>
+  <string name="explanation_strict">Turbo DNS установи, че връзката „Частен DNS“ в Android е активирана.  Това значи, че DNS заявките ви вече са защитени, така че няма нужда да активирате Turbo DNS.</string>
   <string name="status_starting">Стартира…</string>
-  <string name="explanation_starting">Един момент.  Intra установява връзка със сървъра.</string>
+  <string name="explanation_starting">Един момент.  Turbo DNS установява връзка със сървъра.</string>
   <string name="status_waiting">Чака се…</string>
   <string name="status_failing">Неуспешни заявки</string>
-  <string name="explanation_offline">Устройството ви е офлайн.  Intra чака връзка с мрежата.</string>
-  <string name="explanation_vpn">Intra установи друга виртуална частна мрежа (VPN) на устройството ви.  Ако активирате Intra, тази VPN ще бъде деактивирана.
-    Intra не е с толкова високо ниво на сигурност, колкото доверена VPN.</string>
-  <string name="explanation_failing">Предупреждение: Заявките са неуспешни.  Бихте могли да изберете друг сървър или да рестартирате Intra.</string>
+  <string name="explanation_offline">Устройството ви е офлайн.  Turbo DNS чака връзка с мрежата.</string>
+  <string name="explanation_vpn">Turbo DNS установи друга виртуална частна мрежа (VPN) на устройството ви.  Ако активирате Turbo DNS, тази VPN ще бъде деактивирана.
+    Turbo DNS не е с толкова високо ниво на сигурност, колкото доверена VPN.</string>
+  <string name="explanation_failing">Предупреждение: Заявките са неуспешни.  Бихте могли да изберете друг сървър или да рестартирате Turbo DNS.</string>
   <string name="button_failing">Изпробване на друг сървър</string>
   <string name="system_details">Подробности за системата</string>
   <string name="num_requests">Заявки за целия период</string>
   <string name="num_requests_headline">DNS заявките се извършват, когато устройството ви търси IP адреса, отговарящи на име на домейн</string>
-  <string name="num_requests_body">Това е общият брой на DNS заявките от устройството ви, докато приложението Intra е било активно.  Intra шифрова тези заявки и ги изпраща до доверен сървър, за да е сигурно, че получавате достоверни резултати.</string>
+  <string name="num_requests_body">Това е общият брой на DNS заявките от устройството ви, докато приложението Turbo DNS е било активно.  Turbo DNS шифрова тези заявки и ги изпраща до доверен сървър, за да е сигурно, че получавате достоверни резултати.</string>
   <string name="queries_per_minute">Скорошни заявки</string>
   <string name="queries_per_minute_headline">DNS заявките се изпращат в началото на всяка връзка</string>
   <string name="queries_per_minute_body">Това е броят на DNS заявките от устройството ви през последната минута.
     За зареждането на сложна уеб страница могат да са необходими над 100 такива заявки.</string>
   <string name="transport_label">Шифрован транспортен протокол</string>
   <string name="transport_headline">Шифроването защитава заявките ви от чуждо любопитство</string>
-  <string name="transport_body">Когато използвате Intra, DNS заявките ви са шифровани, така че само вие и DNS сървърът да можете да ги разчетете.  Шифроването се извършва чрез протокола „DNS през HTTPS“.</string>
+  <string name="transport_body">Когато използвате Turbo DNS, DNS заявките ви са шифровани, така че само вие и DNS сървърът да можете да ги разчетете.  Шифроването се извършва чрез протокола „DNS през HTTPS“.</string>
   <string name="default_transport_label">Стандартен транспортен протокол</string>
   <string name="insecure_transport">нешифровано</string>
   <string name="insecure_transport_headline">Базовата услуга DNS не е шифрована</string>
@@ -56,9 +55,9 @@
   <string name="server_body">В това поле се показва името на сигурния DNS сървър, който използвате.  Можете да посочите и друг сървър в менюто „Настройки“.</string>
   <string name="default_server_label">Настоящ DNS сървър</string>
   <string name="insecure_server_headline">Можете да изберете свой DNS сървър</string>
-  <string name="insecure_server_body">Когато приложението Intra е деактивирано, повечето устройства са конфигурирани да използват DNS сървъра, посочен от оператора на мрежата ви. В това поле се показва IP адресът на DNS сървъра, използван в момента от устройството ви. С помощта на Intra или Android P лесно можете да посочите сървър по ваш избор.</string>
+  <string name="insecure_server_body">Когато приложението Turbo DNS е деактивирано, повечето устройства са конфигурирани да използват DNS сървъра, посочен от оператора на мрежата ви. В това поле се показва IP адресът на DNS сървъра, използван в момента от устройството ви. С помощта на Turbo DNS или Android P лесно можете да посочите сървър по ваш избор.</string>
   <string name="strict_mode_server_headline">Избрахте сигурен сървър</string>
-  <string name="strict_mode_server_body">В това поле се показва името на DNS сървъра, който сте конфигурирали в настройката на Android „Частен DNS“.  Когато приложението Intra е деактивирано, приложенията ви би трябвало да изпращат DNS заявки до този сървър.</string>
+  <string name="strict_mode_server_body">В това поле се показва името на DNS сървъра, който сте конфигурирали в настройката на Android „Частен DNS“.  Когато приложението Turbo DNS е деактивирано, приложенията ви би трябвало да изпращат DNS заявки до този сървър.</string>
   <string name="unknown_server">(неизвестен сървър)</string>
   <string name="show_history">Показване на скорошните заявки</string>
   <string name="query_label">Заявка</string>
@@ -73,14 +72,14 @@
   <string name="server_choice_custom">URL адрес на персонализирания сървър</string>
   <string name="server_choice_warning">URL адресът на персонализирания сървър трябва да е валиден адрес с https://</string>
   <string name="excluded_apps">Изключени приложения</string>
-  <string name="excluded_apps_summary">DNS заявките от избраните приложения няма да преминават през Intra.  Ако изглежда, че дадено приложение не е съвместимо с Intra, можете да го добавите тук.</string>
-  <string name="excluded_apps_title">Приложения, които да бъдат изключени от Intra</string>
+  <string name="excluded_apps_summary">DNS заявките от избраните приложения няма да преминават през Turbo DNS.  Ако изглежда, че дадено приложение не е съвместимо с Turbo DNS, можете да го добавите тук.</string>
+  <string name="excluded_apps_title">Приложения, които да бъдат изключени от Turbo DNS</string>
   <string name="old_android">Тази функционалност не е налице във вашата версия на Android.</string>
   <string name="notification_title">Защитата на DNS е активна</string>
   <string name="notification_content">Докоснете, за да промените настройката за защита на DNS</string>
   <string name="channel_name">Известие за активна защита на DNS</string>
   <string name="channel_description">Това известие се показва, докато защитата на DNS е активна.</string>
-  <string name="warning_title">Предупреждение: Приложението Intra е деактивирано</string>
+  <string name="warning_title">Предупреждение: Приложението Turbo DNS е деактивирано</string>
   <string name="warning_channel_name">Предупреждение</string>
-  <string name="warning_channel_description">Показва се, когато възникне проблем с Intra.</string>
+  <string name="warning_channel_description">Показва се, когато възникне проблем с Turbo DNS.</string>
 </resources>

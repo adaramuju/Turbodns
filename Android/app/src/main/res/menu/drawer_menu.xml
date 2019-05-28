@@ -8,14 +8,15 @@
       android:title="@string/settings"/>
   <item
       android:id="@+id/support"
-      android:title="@string/support"/>
+      android:title="@string/support"
+      android:visible="false" />
   <item
       android:id="@+id/privacy"
       android:title="@string/privacy_link"/>
   <item
       android:id="@+id/tos"
-      android:title="@string/tos_link"/>
+      android:title="@string/tos_link" />
   <item
       android:id="@+id/source_code"
-      android:title="@string/source_code"/>
+      android:title="@string/license_text" />
 </menu>

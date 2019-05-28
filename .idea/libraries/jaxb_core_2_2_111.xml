@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxb-core-2.2.111">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/app/test-repo/org/glassfish/jaxb/jaxb-core/2.2.11/jaxb-core-2.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
